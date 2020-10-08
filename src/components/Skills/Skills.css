@@ -1,0 +1,228 @@
+.home{
+    width: 100%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+.home2{
+    display: flex;
+}
+.home::before{
+    content: "<html>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.home::after{
+    content: "</html>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+
+.presentation{
+    display: block;
+    width: 50%;
+}
+.map{
+    display: block;
+    width: 50%;
+    
+}
+.map2{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.skills{
+    font-family: 'Secular One', sans-serif;
+    padding-left: 10%;
+}
+.presentation::before{
+    content: "<body>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+}
+.presentation::after{
+    content: "</body>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.presentation p a{
+    color: #08fdd8;
+}
+
+
+h1::before{
+    content: "<h1>";
+    color: #757577;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 0%;
+}
+h1::after{
+    content: "</h1>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 0%;
+}
+.metier{
+    font-family: 'Secular One', sans-serif;
+    word-spacing: 5px;
+    padding-left: 10%;
+}
+.metier::before{
+    content: "<p>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.metier::after{
+    content: "</p>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.name,
+.email,
+.subject,
+.text{
+    display: block;
+}
+.flex-name-email{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-contact{
+    margin-left: 10%;
+}
+.name{
+    width: 50%;
+    border: 0;
+    padding: 0 20px;
+}
+.email{
+    width: 50%;
+    border: 0;
+    padding: 0 20px;
+}
+.subject{
+    width: 100%;
+    border: 0;
+    padding: 0 20px;
+}
+.text{
+    width: 100%;
+    border: 0;
+    padding: 0 20px;
+    padding-top: 10px;
+}
+.btn-send{
+    border: 1px solid #08fdd8;
+    border-radius: 10%;
+    background-color: #2b2b2b;
+    color: #08fdd8;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+    display: block;
+    float: right;
+    margin-top: 15px;
+    
+
+}
+.btn-send:hover{
+    background-color: #08fdd8;
+    color: #2b2b2b;
+}
+
+
+
+
+
+@media screen and (max-width:770px) {
+.home{
+    width: 100%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.taile{
+    margin-left:0px;
+}
+.form-contact{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.skills{
+    font-family: 'Secular One', sans-serif;
+    padding-left: 10%;
+    margin-right: 5%;
+}
+.metier{
+    font-family: 'Secular One', sans-serif;
+    word-spacing: 5px;
+    padding-left: 10%;
+    margin-right: 5%;
+}
+.name,
+.email{
+    display: block;
+}
+.home2{
+    display: block;
+}
+.presentation{
+    display: block;
+    width: 100%;
+}
+.map{
+    display: block;
+    width: 100%;
+}
+.presentation::after{
+    content: "";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.map::after{
+    content: "</body>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.map2{
+    width: 85%;
+    height: calc(100vh - 40px);
+    margin-top: 23px;
+    margin-left: 10%;
+    display: block;
+}
+}

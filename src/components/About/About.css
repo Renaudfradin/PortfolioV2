@@ -1,0 +1,196 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+.home2{
+    display: flex;
+    flex-direction: row;
+
+}
+.presentation::before{
+    content: "<html>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.presentation::after{
+    content: "</html>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+
+.presentation{
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.map{
+    display: block;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+.skills{
+    font-family: 'Secular One', sans-serif;
+    padding-left: 10%;
+    color: #08fdd8;
+}
+.presentation2::before{
+    content: "<body>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+}
+.presentation2::after{
+    content: "</body>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.presentation p a{
+    color: #08fdd8;
+}
+
+
+h1::before{
+    content: "<h1>";
+    color: #757577;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 0%;
+}
+h1::after{
+    content: "</h1>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 0%;
+}
+
+
+
+
+.metier{
+    font-family: 'Secular One', sans-serif;
+    word-spacing: 5px;
+    padding-left: 10%;
+}
+.metier::before{
+    content: "<p>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+.metier::after{
+    content: "</p>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+svg {
+  display: block;
+  margin: 0 auto;
+}
+path {
+  fill: none;
+  stroke: white;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+
+
+@media screen and (max-width:770px) {
+.home{
+    width: 100%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.taile{
+    margin-left:0px;
+}
+.skills{
+    font-family: 'Secular One', sans-serif;
+    padding-left: 10%;
+    margin-right: 5%;
+}
+.metier{
+    font-family: 'Secular One', sans-serif;
+    word-spacing: 5px;
+    padding-left: 10%;
+    margin-right: 5%;
+}
+.home2{
+    display: block;
+}
+.presentation{
+    display: block;
+    width: 100%;
+    padding-right: 0rem;
+}
+.map{
+    display: block;
+    width: 100%;
+    margin-top: 23px;
+}
+.presentation2::after{
+    content: "";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.presentation::after{
+    content: "";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.map::after{
+    content: "</body>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    margin-left: 5%;
+    display: block;
+}
+.home2::after{
+    content: "</html>";
+    color: #757577;;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+    display: block;
+}
+.map2{
+    width: 85%;
+    height: calc(100vh - 40px);
+    margin-top: 23px;
+    margin-left: 10%;
+    display: block;
+}
+}
