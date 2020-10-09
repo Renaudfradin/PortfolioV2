@@ -10,23 +10,26 @@
                     <form action="">
                         <div class="flex-name-email">
                             <label class="field field_v2" style="width:100%">
-                                <input class="field__input subject name" placeholder="Prenom" type="text" required>
+                                <input v-model="formData.prenom" id="prenom" class="field__input subject name" placeholder="Prenom" type="text">
                                 <span class="field__label-wrap"></span>
                             </label> 
                             <label class="field field_v2 taile" style="width:100%;">
-                                <input class="field__input subject email" placeholder="Email" type="text" required>
+                                <input v-model="formData.email" class="field__input subject email" placeholder="Email" type="mail">
                                 <span class="field__label-wrap"></span>
                             </label> 
                         </div>
                         <label class="field field_v2" style="width:100%">
-                            <input class="field__input subject" placeholder="Sujet" type="text" required>
+                            <input v-model="formData.sujet" class="field__input subject" placeholder="Sujet" type="text">
                             <span class="field__label-wrap"></span>
                         </label> 
                         <label class="field field_v2" style="width:100%">
-                            <textarea class="field__input subject" placeholder="Text" cols="30" rows="10"></textarea>
+                            <textarea v-model="formData.text" class="field__input subject" placeholder="Text" cols="30" rows="10"></textarea>
                             <span class="field__label-wrap"></span>
                         </label>
-                        <button class="btn-send">envoyer</button><br>
+                        <div v-if="infoform">
+                            <p>Le formulaire est mal rempli</p>
+                        </div>
+                        <button class="btn-send" v-on:click.prevent="submitform">envoyer</button><br>
                     </form>
                     </div>
                 </div>
@@ -42,7 +45,25 @@ export default {
     name:'Contact',
     data(){
         return{
-
+            infoform:false,
+            formData:{
+                prenom:'',
+                email:'',
+                sujet:'',
+                text:'',
+            }
+        }
+    },
+    methods:{
+        submitform:function(){
+            if (this.formData.prenom == "" || this.formData.email == "" || this.formData.sujet == "" || this.formData.text == "") {
+                console.log("form pas remplie");
+                this.infoform = true;
+            }else{
+                console.log("form remplie");
+                console.log(this.formData.prenom);
+                this.infoform = false;
+            }
         }
     }
 }
