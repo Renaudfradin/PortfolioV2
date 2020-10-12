@@ -10,7 +10,7 @@
     display: block;
     font-size: 25px;
     text-align: center;
-    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     color: white;
 }
 .nav2{
@@ -40,6 +40,9 @@
 }
 
 @media screen and (max-width:770px){
+.nav3{
+    display: none;
+}
 .header{
     background: #181818;
     width: 100%;

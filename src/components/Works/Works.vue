@@ -2,9 +2,9 @@
     <div class="home">
       <div class="row">
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">Applications-Météo</h5>
                 <p class="card-text">Applications-meteo realiser avec BOOTSTRAP et VUE.js et l'API OpenWeather</p>
@@ -18,9 +18,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">Applications-Météo</h5>
                 <p class="card-text">Applications-meteo realiser avec HTML/CSS/JS et l'API prevision-meteo.ch</p>
@@ -34,9 +34,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">TODO-LIST</h5>
                 <p class="card-text">TODO-LIST realiser en HTML/CSS/JS</p><br>
@@ -50,9 +50,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">PORTFOLIO V1</h5>
                 <p class="card-text">Portfolio qui regroupe mes competance realiser en BULMA/JS</p>
@@ -66,9 +66,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">PORTFOLIO V2</h5>
                 <p class="card-text">Portfolio qui regroupe mes competance realiser en HTML/CSS BOOTSTRAP et VUE.JS</p>
@@ -82,9 +82,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'.../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -96,12 +96,11 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
+      
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">BOT DISCORD(MaXiMe)</h5>
                 <p class="card-text">BOT réalisé pour le logiciel <a style="color:#08fdd8;text-decoration: none;" href="https://discord.com/">Discord</a></p>
@@ -115,9 +114,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">GSB-PHP</h5>
                 <p class="card-text">Application de gestion de frais Réalisé en BULMA/PHP/SQL</p>
@@ -132,9 +131,9 @@
         </div>
         
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">GSB-JAVA</h5>
                 <p class="card-text">Application de gestion de compte-rendu de visite Réalisé en JAVA</p>
@@ -148,9 +147,9 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">EDITCALC</h5>
                 <p class="card-text">Calculette pour enfant Réalisé en JAVA/SQL</p>
@@ -164,32 +163,64 @@
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
-                <h5 class="card-title">THE SKATESHOP</h5>
-                <p class="card-text">Site vitrine de vente produit de skate Réalisé en HTML/CSS</p>
-                <p class="card-text">Mars 2020</p>
+                <h5 class="card-title">EDITCALC</h5>
+                <p class="card-text">Calculette pour enfant Réalisé en JAVA/SQL</p>
+                <p class="card-text">Novembre 2019 - Avril 2020</p>
                 <div class="btn-parent">
-                  <a href="https://renaudfradin.github.io/The-Skateshop/" class="btn btn-primary btn-info">site</a>
-                  <a href="https://github.com/Renaudfradin/The-Skateshop" class="btn btn-primary btn-info">code</a>
+                  <a href="#" class="btn btn-primary btn-info">site</a>
+                  <a href="#" class="btn btn-primary btn-info">code</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="">
+          <div class="style-card1">
             <div class="style-card">
-              <img v-bind:src="'../assets/logo.png'" alt="">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
               <div class="card-body">
-                <h5 class="card-title">THE-BD-SHOP</h5>
-                <p class="card-text">Projet realiser en cour realiser en HTML/CSS/PHP</p>
-                <p class="card-text">Mai 2018</p>
+                <h5 class="card-title">EDITCALC</h5>
+                <p class="card-text">Calculette pour enfant Réalisé en JAVA/SQL</p>
+                <p class="card-text">Novembre 2019 - Avril 2020</p>
                 <div class="btn-parent">
-                  <!--<a href="#" class="btn btn-primary btn-info">site</a>-->
-                  <a href="https://github.com/Renaudfradin/BD-SHOP" class="btn btn-primary btn-info">code</a>
+                  <a href="#" class="btn btn-primary btn-info">site</a>
+                  <a href="#" class="btn btn-primary btn-info">code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="style-card1">
+            <div class="style-card">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">EDITCALC</h5>
+                <p class="card-text">Calculette pour enfant Réalisé en JAVA/SQL</p>
+                <p class="card-text">Novembre 2019 - Avril 2020</p>
+                <div class="btn-parent">
+                  <a href="#" class="btn btn-primary btn-info">site</a>
+                  <a href="#" class="btn btn-primary btn-info">code</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="style-card1">
+            <div class="style-card">
+              <img class="card-img-top" src="../../assets/logo.png" alt="">
+              <div class="card-body">
+                <h5 class="card-title">EDITCALC</h5>
+                <p class="card-text">Calculette pour enfant Réalisé en JAVA/SQL</p>
+                <p class="card-text">Novembre 2019 - Avril 2020</p>
+                <div class="btn-parent">
+                  <a href="#" class="btn btn-primary btn-info">site</a>
+                  <a href="#" class="btn btn-primary btn-info">code</a>
                 </div>
               </div>
             </div>
@@ -204,7 +235,7 @@ export default {
     name:'Works',
     data(){
         return{
-
+          loup:"./assets/logo.png",
         }
     }
 }
@@ -229,6 +260,10 @@ export default {
   color: #08fdd8;
   border: 1px solid #181818;
   background: #222;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
 }
 .card-text{
   color: white;

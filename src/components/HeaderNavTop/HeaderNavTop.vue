@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div style="display:block;">
-            <router-link class="nav1" to="/About"><img v-bind:src="'../assets/logo.png'" alt=""></router-link>
+            <router-link class="nav1" to="/Home"><img class="nav3" style="width:100%" src="../../assets/logo.png" alt=""></router-link>
         </div>
         <div style="display:block;">
             <router-link class="nav" to="/Home"><i class="fas fa-home"></i></router-link>
@@ -10,9 +10,9 @@
             <router-link class="nav" to="/Works"><i class="far fa-eye"></i></router-link>
             <router-link class="nav" to="/Contact"><i class="far fa-envelope"></i></router-link>
         </div>
-        <div  style="display:block;">
-            <a class="nav" href="https://www.linkedin.com/in/renaud-fradin-9166b3161/"><i class="fab fa-linkedin-in"></i></a>
-            <a class="nav2" href="https://github.com/Renaudfradin"><i class="fab fa-github"></i></a>
+        <div style="display:block;">
+            <a class="nav" :href="urlLink"><i class="fab fa-linkedin-in"></i></a>
+            <a class="nav2" :href="urlGit"><i class="fab fa-github"></i></a>
         </div> 
     </div>
 
@@ -23,6 +23,8 @@ export default {
     data(){
         return{
             logo1:"./assets/logo.png",
+            urlLink:"https://www.linkedin.com/in/renaud-fradin-9166b3161/",
+            urlGit:"https://github.com/Renaudfradin"
         }
     }
 }
