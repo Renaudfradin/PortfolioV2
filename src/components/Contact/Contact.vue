@@ -3,8 +3,8 @@
         <div class="home2">
             <div class="presentation">
                 <div class="presentation2">
-                    <h1 class="skills"><br>Contacter moi<br></h1>
-                    <p class="metier">Je suis intereser par les grand ou petit projet.</p>
+                    <h1 class="skills"><br>Contactez moi<br></h1>
+                    <p class="metier">Je suis interessé par les grands ou petits projets.</p>
                     <p class="metier">Si vous avez des questions, n'hésitez pas à me contacter en utilisant le formulaire ci-dessous</p>
                     <div class="form-contact">
                     <form action="">
