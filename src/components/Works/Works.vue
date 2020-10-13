@@ -117,7 +117,7 @@
         <div class="col">
           <div class="style-card1">
             <div class="style-card">
-              <img class="card-img-top img-projet" src="../../assets/Screenshot_2020-04-21 Intranet du Laboratoire Galaxy-Swiss Bourdin.png" alt="">
+              <img class="card-img-top img-projet" src="../../assets/Screenshot_2020-04-21IntranetduLaboratoireGalaxy-SwissBourdin.png" alt="">
               <div class="card-body">
                 <h5 class="card-title">GSB-PHP</h5>
                 <p class="card-text">Application de gestion de frais Réalisé en BULMA/PHP/SQL</p>
