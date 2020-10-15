@@ -179,14 +179,14 @@ h1::after{
 }
 .langstyle{
     display:flex; 
-    justify-content:end
+    
 }
 .lang2{
     margin-left: 20px;
 }
 @media screen and (max-width:1401px) {
     .langstyle{
-        display:block; 
+        display:flex; 
         justify-content:end
     }
     .lang2{
