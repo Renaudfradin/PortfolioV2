@@ -187,7 +187,6 @@ h1::after{
 @media screen and (max-width:1401px) {
     .langstyle{
         display:flex; 
-        justify-content:end
     }
     .lang2{
         margin-left: 0px;
