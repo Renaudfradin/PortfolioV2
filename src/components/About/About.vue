@@ -4,13 +4,13 @@
             <div class="presentation">
                 <div class="presentation2">
                     <h1 class="skills"><br>Présentation<br></h1>
-                    <p class="metier">Je suis un étudiant de 20 ans</p>
+                    <p class="metier">Je suis un étudiant de 21 ans</p>
                     <p class="metier">J'ai obtenu un BTS SIO (Service Informatique aux Organisations) SLAM (Solutions Logicielles et Applications Métiers) en juin 2020</p>
                     <p class="metier">J'ai obtenu un Titre professionnel Développeur web et web mobile a L'AFPA en juin 2019</p>
                     <p class="metier">J'ai obtenu mon baccalauréat STI2D (sciences & technologies de l'industrie et du développement durable) en juin 2018</p>
                     <p class="metier">Je suis fan des jeux vidéo et de sport (vélo, natation, musculation)</p>
                     <p class="metier">Je milite aussi pour la cause animale</p>
-                    <p class="metier">Je suis intéressé par le développement front-end</p>
+                    <p class="metier">Je suis intéressé par le développement front-end et back-end</p>
                 </div>
             </div>
             <div class="map">
