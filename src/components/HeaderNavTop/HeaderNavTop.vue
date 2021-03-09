@@ -23,7 +23,7 @@ export default {
     data(){
         return{
             logo1:"./assets/logo.png",
-            urlLink:"https://www.linkedin.com/in/renaud-fradin-9166b3161/",
+            urlLink:"https://www.linkedin.com/in/Renaudfradin/",
             urlGit:"https://github.com/Renaudfradin"
         }
     }

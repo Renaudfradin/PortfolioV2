@@ -5,8 +5,10 @@
                 <div class="presentation2">
                     <h1 class="skills"><br>Contactez moi<br></h1>
                     <p class="metier">Je suis interessé par les grands ou petits projets.</p>
-                    <p class="metier">Si vous avez des questions, n'hésitez pas à me contacter en utilisant le formulaire ci-dessous</p>
-                    <div class="form-contact">
+                    <p class="metier">Si vous avez des questions, n'hésitez pas à me contacter en utilisant mon adresse mail ou mon linkedin</p>
+                    <p class="metier">renaudfradin@gmail.com</p>
+                    <p class="metier"><a href="https://www.linkedin.com/in/Renaudfradin/" onclick="window.open(this.href); return false;">Linkedin Renaud fradin</a></p>
+                    <!--<div class="form-contact">
                     <form action="">
                         <div class="flex-name-email">
                             <label class="field field_v2" style="width:100%">
@@ -31,12 +33,14 @@
                         </div>
                         <button class="btn-send" v-on:click.prevent="submitform">envoyer</button><br>
                     </form>
-                    </div>
+                    </div>-->
                 </div>
             </div>
+            <!--
             <div class="map">
                <iframe class="map2" :src="mapgoole" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
+            -->
         </div>
     </div>
 </template>

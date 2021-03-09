@@ -11,6 +11,7 @@
                     <p class="metier">Je suis fan des jeux vidéo et de sport (vélo, natation, musculation)</p>
                     <p class="metier">Je milite aussi pour la cause animale</p>
                     <p class="metier">Je suis intéressé par le développement front-end et back-end</p>
+                    <a class="btn-contact" href="cv.pdf" download="cv.pdf">Voir mon cv</a>
                 </div>
             </div>
             <div class="map">
