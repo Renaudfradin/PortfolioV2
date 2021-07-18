@@ -127,11 +127,11 @@
 .langstyle{
     display: grid;
     grid-template-columns: repeat(2, 40%);
-    grid-template-rows: repeat(2, 20%);
     grid-column-gap: 15px;
     grid-row-gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 40px;
 }
 .lang2{
     margin-left: 20px;

@@ -9,7 +9,7 @@
     width: 90%;
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(4, 35%);
+    grid-template-rows: repeat(4, 33%);
     grid-column-gap: 20px;
     grid-row-gap: 15px;
     margin-left: 100px;
@@ -102,7 +102,7 @@
         width: 95%;
         display: grid;
         grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(1, 8.3%);
+        grid-template-rows: repeat(1, 8%);
         grid-column-gap: 0px;
         grid-row-gap: 10px;
         margin-left: 10px;
@@ -192,8 +192,8 @@
     .row{
         width: 90%;
         display: grid;
-        grid-template-columns: repeat(4, 25%);
-        grid-template-rows: repeat(4, 33%);
+        grid-template-columns: repeat(3, 31%);
+        grid-template-rows: repeat(3, 25%);
         grid-column-gap: 15px;
         grid-row-gap: 15px;
         margin-left: 80px;
@@ -209,7 +209,7 @@
 }
 
 
-@media screen and (min-width:2000px) and (max-width:2600px) {
+@media screen and (min-width:2200px) and (max-width:2600px) {
     .home{
         margin-top: 20px;
     }
@@ -242,7 +242,7 @@
         width: 90%;
         display: grid;
         grid-template-columns: repeat(6, 16.6%);
-        grid-template-rows: repeat(6, 45%);
+        grid-template-rows: repeat(6, 32%);
         grid-column-gap: 20px;
         grid-row-gap: 25px;
         margin-left: auto;
