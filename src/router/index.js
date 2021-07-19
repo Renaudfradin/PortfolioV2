@@ -4,6 +4,7 @@ import About from '../components/About/About.vue';
 import Skills from '../components/Skills/Skills.vue';
 import Works from '../components/Works/Works.vue';
 import Contact from '../components/Contact/Contact.vue';
+import Notfound from '../components/Notfound/Notfound.vue';
 
 const routes = [
     {
@@ -45,6 +46,18 @@ const routes = [
         meta: {
             title: 'Contact'
         }
+    },
+    {
+        name: 'Notfound',
+        path: '/404',
+        component:Notfound,
+        meta:{
+            title: '404'
+        }
+    },
+    {
+        path: '/:catchAll(.*)',
+        redirect: '/404'
     }
 ];
 
