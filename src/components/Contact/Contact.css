@@ -1,334 +1,59 @@
-.home{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    margin-left: 10%;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 0px;
-}
-
-.home2{
-    display: flex;
-    flex-direction: row;
-
-}
-
-
 .presentation{
-    display: block;
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-right: 10%;
-}
-
-.map{
-    display: block;
-    width: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-    position: relative;
-}
-
-.map2{
-    width: 100%;
-    height: calc(100vh - 15px);
-    margin-top: auto;
-    margin-bottom: auto;
+  display: block;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-right: 10%;
 }
 
 .skills{
-    font-family: 'Secular One', sans-serif;
-    padding-left: 10%;
-    color: #08fdd8;
+  font-family: 'Secular One', sans-serif;
+  padding-left: 10%;
+  color: #08fdd8;
 }
-
 
 .presentation p a{
-    color: #08fdd8;
+  color: #08fdd8;
 }
-
-
 
 .metier{
-    font-family: 'Secular One', sans-serif;
-    word-spacing: 5px;
-    padding-left: 10%;
-}
-
-
-.name,
-.email,
-.subject,
-.text{
-    display: block;
-    margin-bottom: 20px;
-}
-
-.flex-name-email{
-    display: flex;
-    justify-content: center;
-}
-
-.input_name{
-    width: 100%;
-}
-
-.form-contact{
-    margin-left: 10%;
-    width: 90%;
-}
-
-.name{
-    width: 50%;
-    border: 0;
-    padding: 0 00px;
-}
-
-.email{
-    width: 50%;
-    border: 0;
-    padding: 0 00px;
-}
-
-.subject{
-    width: 100%;
-    border: 0;
-    padding: 0 20px;
-}
-
-.text{
-    width: 100%;
-    border: 0;
-    padding: 0 20px;
-    padding-top: 10px;
-}
-
-.btn-send{
-    border: 1px solid #08fdd8;
-    background-color: #2b2b2b;
-    color: #08fdd8;
-    text-align: center;
-    font-size: 16px;
-    text-decoration: none;
-    letter-spacing: 3px;
-    padding: 15px 20px;
-    text-transform: uppercase;
-    width: auto;
-    height: auto;
-    display: block;
-    float: right;
-    margin-top: 15px;
-    border-radius: 5px;
-}
-
-.btn-send:hover{
-    background-color: #08fdd8;
-    color: #2b2b2b;
+  font-family: 'Secular One', sans-serif;
+  word-spacing: 5px;
+  padding-left: 10%;
 }
 
 .taile{
-    margin-left:15px;
+  margin-left:15px;
 }
-
-.field__input{ 
-  --uiFieldPlaceholderColor: var(--fieldPlaceholderColor, #767676);
-  background-color: #2b2b2b;
-  border-radius: 0;
-  border: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-.field{
-  --uiFieldBorderWidth: var(--fieldBorderWidth, 2px);
-  --uiFieldPaddingRight: var(--fieldPaddingRight, 1rem);
-  --uiFieldPaddingLeft: var(--fieldPaddingLeft, 1rem);   
-  --uiFieldBorderColorActive: var(--fieldBorderColorActive, rgba(22, 22, 22, 1));
-  display: var(--fieldDisplay, inline-flex);
-  position: relative;
-  font-size: var(--fieldFontSize, 1rem);
-}
-
-.field__input{
-  display: block;
-  width: 96%;
-  height: 50px; 
-}
-
-.field_email_name{
-    display: flex;
-    width: 98%;
-    justify-content: space-between;
-}
-
-.field__input:focus{
-  outline: none;
-}
-
-.field__input::-webkit-input-placeholder{
-  opacity: 0;
-  transition: opacity .2s ease-out;
-}
-
-.field__input::-moz-placeholder{
-  opacity: 0;
-  transition: opacity .2s ease-out;
-}
-
-.field__input:focus::-webkit-input-placeholder{
-  opacity: 1;
-  transition-delay: .2s;
-}
-
-.field__input:focus::-moz-placeholder{
-  opacity: 1;
-  transition-delay: .2s;
-}
-
-.field__label-wrap{
-  box-sizing: border-box;
-  pointer-events: none;
-  cursor: text;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.field__label-wrap::after{
-  content: "";
-  box-sizing: border-box;
-  width: 100%;
-  height: 0;
-  opacity: 0;
-
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.field__input:focus ~ .field__label-wrap::after{
-  opacity: 1;
-}
-
-.field__input:focus ~ .field__label-wrap,
-.field__input:not(:placeholder-shown) ~ .field__label-wrap{
-  --fieldHintFontSize: var(--fieldHintFontSizeFocused, .75rem);
-  top: var(--fieldHintTopHover, .25rem);
-}
-
-.field_v2 .field__label-wrap{
-  overflow: hidden;
-}
-
-.field_v2 .field__label-wrap::after{
-  border-bottom: var(--uiFieldBorderWidth) solid var(--uiFieldBorderColorActive);
-  transform: translate3d(-105%, 0, 0);
-  will-change: transform, opacity;
-  transition: transform .285s ease-out .2s, opacity .2s ease-out .2s;
-}
-
-.field_v2 .field__input:focus ~ .field__label-wrap::after{
-  transform: translate3d(0, 0, 0);
-  transition-delay: 10;
-}
-
-.field{
-  --fieldBorderColor: #2b2b2b;
-  --fieldBorderColorActive: #08fdd8;
-}
-
-
-
-
 
 @media screen and (max-width:910px) {
-.home{
-    width: 100%;
-    height: calc(100vh - 40px);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    color: white;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
 .taile{
-    margin-left:0px;
+  margin-left:0px;
 }
 
 .form-contact{
-    margin-left: 10%;
-    margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .skills{
-    font-family: 'Secular One', sans-serif;
-    padding-left: 10%;
-    margin-right: 5%;
-    text-align: center;
+  font-family: 'Secular One', sans-serif;
+  padding-left: 10%;
+  margin-right: 5%;
+  text-align: center;
 }
 
 .metier{
-    font-family: 'Secular One', sans-serif;
-    word-spacing: 5px;
-    padding-left: 10%;
-    margin-right: 5%;
-}
-
-.name,
-.email{
-    display: block;
-}
-
-.flex-name-email{
-    display: inline;
-    color: #08fdd8;
-}
-
-.home2{
-    display: block;
+  font-family: 'Secular One', sans-serif;
+  word-spacing: 5px;
+  padding-left: 10%;
+  margin-right: 5%;
 }
 
 .presentation{
-    display: block;
-    width: 100%;
-    padding-right: 0rem;
+  display: block;
+  width: 100%;
+  padding-right: 0rem;
 }
 
-.map{
-    display: block;
-    width: 100%;
-    margin-top: 23px;
-}
-
-.map2{
-    width: 85%;
-    height: 100%;
-    margin-top: 23px;
-    margin-left: 10%;
-    display: block;
-}
-
-.btn-send{
-    margin-bottom: 23px;
-    border-radius: 5px;
-}
-
-}
-@media screen and (max-width:426px) {
-    .map2{
-        width: 85%;
-        height: 40vh;
-        margin-top: 23px;
-        margin-left: 10%;
-        display: block;
-    }
 }
