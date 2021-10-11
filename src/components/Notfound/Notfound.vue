@@ -1,6 +1,13 @@
 <template>
   <div class="pageerror">
-    <p>404</p>
+    <h1>
+    <div class="glitch" data-text="404">
+      404
+    </div>
+  </h1>
+  <div>
+    <p class="erreur_text">Cette page est ringarde, obsolète, complètement dépassé ou naze </p>
+  </div>
   </div>
 </template>
 <script>

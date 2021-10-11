@@ -1,24 +1,17 @@
 <template>
-<div class="home">
-  <div class="row">
-    <div v-for="(projet , index) in tableproj" v-bind:key="index" class="col" >   
-      <div class="style_card">
-        <router-link :to="{ name: 'Work' , params: { name:projet.nomProjet }}"><img class="card_img" :src="projet.imgProjet" alt=""></router-link>
-        <div class="cardbody">
-          <div class="text_info">
-            <h5 class="text_info_name">{{projet.nomProjet}}</h5>
-            <p class="text_info_description">{{projet.diescriptionProjet}}</p>
-            <p class="text_info_btnprojet">{{projet.realisationProjet}}</p>
-          </div>
-          <div class="btn_parent">
-            <a v-if="projet.urlSiteProjet != 'rien'" :href="projet.urlSiteProjet" class="btn_info" target="_blank">site</a>
-            <a v-if="projet.urlCodeProjet != 'rien'" :href="projet.urlCodeProjet" class="btn_info" target="_blank">code</a>
-          </div>
-        </div>
-      </div>
-    </div> 
-  </div>
-</div>
+    <div>
+        <div v-for="(projet , index) in tableproj" v-bind:key="index">  
+            <div v-if="projet.nomProjet == $route.params.name">
+                <p style="margin-left: 200px;">nom : {{projet.nomProjet}}</p>
+                <p style="margin-left: 200px;">description : {{projet.diescriptionProjet}}</p>
+                <p style="margin-left: 200px;">quand : {{projet.realisationProjet}}</p>
+                <p style="margin-left: 200px;">img projet : {{projet.imgProjet}}</p>
+                <p style="margin-left: 200px;">code proejet :  {{projet.urlCodeProjet}}</p>
+                <p style="margin-left: 200px;">siet proejet : {{projet.urlSiteProjet}}</p>
+            </div> 
+
+        </div> 
+    </div>
 </template>
 <script>
 import { defineComponent } from 'vue';
@@ -43,4 +36,7 @@ export default defineComponent({
   }
 })
 </script>
-<style src="./Works.css" scoped></style>
+
+<style scoped>
+</style>
+

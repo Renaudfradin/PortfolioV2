@@ -4,6 +4,7 @@ import About from '../views/about.vue';
 import Skills from '../views/skills.vue';
 import Works from '../views/works.vue';
 import Contact from '../views/contact.vue';
+import Work from '../components/Work/Work.vue'
 import Notfound from '../views/404';
 
 const routes = [
@@ -45,6 +46,14 @@ const routes = [
     component:Contact,
     meta: {
       title: 'Contact'
+    }
+  },
+  {
+    name: 'Work',
+    path: '/Work/:name',
+    component:Work,
+    meta:{
+      title: 'Projet'
     }
   },
   {
