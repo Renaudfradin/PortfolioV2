@@ -4,6 +4,7 @@ import About from '../views/about.vue';
 import Skills from '../views/skills.vue';
 import Works from '../views/works.vue';
 import Contact from '../views/contact.vue';
+import Work from '../components/Work/Work.vue'
 import Notfound from '../views/404';
 
 const routes = [
@@ -40,6 +41,14 @@ const routes = [
     }
   },
   {
+    name: 'Work',
+    path: '/Work/:name',
+    component:Work,
+    meta:{
+      title: `Projet`
+    }
+  },
+  {
     name: 'Contact',
     path: '/Contact',
     component:Contact,
@@ -52,7 +61,7 @@ const routes = [
     path: '/404',
     component:Notfound,
     meta:{
-      title: '404'
+      title: '404 - ON OBSERVE'
     }
   },
   {
@@ -62,6 +71,7 @@ const routes = [
 ];
 
 const router = createRouter({
+  mode: 'history',
   history: createWebHistory(process.env.BASE_URL),
   routes,
 });

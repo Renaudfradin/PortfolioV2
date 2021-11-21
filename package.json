@@ -1,6 +1,6 @@
 {
-  "name": "portfoliov2vue3",
-  "version": "1.0.0",
+  "name": "portfoliov2",
+  "version": "1.5.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,7 +8,6 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.10"

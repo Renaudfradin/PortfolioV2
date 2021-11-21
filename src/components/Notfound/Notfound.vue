@@ -1,14 +1,12 @@
 <template>
-  <div class="pageerror">
-    <p>404</p>
-  </div>
+<div>
+  <img class="error_img" src="@/assets/illuminatie_404(2).png" alt="">
+  <!-- {{$route.path}} -->
+</div>
 </template>
 <script>
 export default {
   name: 'Notfound',
-  components: {
-
-  }
 }
 </script>
 <style src="./Notfound.css" scoped> </style>
