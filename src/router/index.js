@@ -41,6 +41,14 @@ const routes = [
     }
   },
   {
+    name: 'Work',
+    path: '/Work/:name',
+    component:Work,
+    meta:{
+      title: `Projet`
+    }
+  },
+  {
     name: 'Contact',
     path: '/Contact',
     component:Contact,
@@ -49,19 +57,11 @@ const routes = [
     }
   },
   {
-    name: 'Work',
-    path: '/Work/:name',
-    component:Work,
-    meta:{
-      title: 'Projet'
-    }
-  },
-  {
     name: 'Notfound',
     path: '/404',
     component:Notfound,
     meta:{
-      title: '404'
+      title: '404 - ON OBSERVE'
     }
   },
   {
@@ -71,6 +71,7 @@ const routes = [
 ];
 
 const router = createRouter({
+  mode: 'history',
   history: createWebHistory(process.env.BASE_URL),
   routes,
 });

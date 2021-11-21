@@ -96,7 +96,7 @@
 
 .stack_info{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-right: 10px;
 }
 

@@ -13,7 +13,6 @@
                 {{stack.stack1}}  {{stack.stack2}} {{stack.stack3}} {{stack.stack4}} {{stack.stack5}}
               </p>
             </div>
-              
             <p class="text_info_btnprojet">{{projetss.realisationProjet}}</p>
           </div>
           <div class="btn_parent">

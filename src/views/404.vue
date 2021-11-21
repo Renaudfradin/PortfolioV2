@@ -1,23 +1,22 @@
 <template>
   <div class="erreur">
       <Notfound />
-      <Cerf class="cerf"/>
   </div>
 </template>
 <script>
 import { defineComponent } from 'vue';
 import Notfound from '../components/Notfound/Notfound.vue';
-import Cerf from '../components/Cerf/Cerf.vue'
+//import Cerf from '../components/Cerf/Cerf.vue'
 export default defineComponent ({
-  components:{ Notfound , Cerf }
+  components:{ Notfound , /*Cerf*/ }
 })
 </script>
 <style scoped>
-.erreur{
+/* .erreur{
   display: flex;
   width: 100%;
 }
 .cerf{
 width: 50%;
-}
+} */
 </style>
