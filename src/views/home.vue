@@ -3,7 +3,7 @@
     <div class="home2">
       <Home />
       <div class="cerf">
-        <Cerf />
+        <Wolf />
       </div>
     </div>
   </div>
@@ -11,9 +11,9 @@
 <script>
 import { defineComponent } from 'vue' ;
 import Home from '../components/Home/Home.vue';
-import Cerf from '../components/Cerf/Cerf.vue';
+import Wolf from '../components/Wolf/Wolf.vue';
 export default defineComponent ({
-  components: { Home, Cerf }
+  components: { Home, Wolf }
 })
 </script>
 <style scoped> 

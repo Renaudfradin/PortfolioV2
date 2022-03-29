@@ -1,6 +1,6 @@
 <template>
 <div class="home">
-  <div v-for="(projet , index) in jsonData" v-bind:key="index" class="row">
+  <div v-for="(projet , index) in jsonProjet" v-bind:key="index" class="row">
     <div v-for="(projetss , index2) in projet" v-bind:key="index2" class="col" >  
       <div class="style_card">
         <router-link :to="{ name: 'Work' , params: { name:projetss.nomProjet }}"><img class="card_img" :src="projetss.imgProjet" alt=""></router-link>
@@ -27,11 +27,11 @@
 </template>
 <script>
 import { defineComponent } from 'vue';
-import json from '../jsondata/data.json';
+import json from '../JsonData/DataProjet.json';
 export default defineComponent({
   data(){
     return{
-      jsonData:json
+      jsonProjet:json
     }
   }
 })

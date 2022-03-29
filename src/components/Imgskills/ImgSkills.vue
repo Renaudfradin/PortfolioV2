@@ -13,12 +13,12 @@ export default defineComponent({
   data(){
     return{
       tableCompetence:[
-        {imgLang:"imgskills/html.svg" ,Lang:"html/css"},
-        {imgLang:"imgskills/php.svg" ,Lang:"php"},
         {imgLang:"imgskills/js.svg" ,Lang:"javascript"},
         {imgLang:"imgskills/vuejs.svg" ,Lang:"vue.js"},
+        {imgLang:"imgskills/node.svg" ,Lang:"node.js"},
+        {imgLang:"imgskills/symfony.svg" ,Lang:"symfony"},
+        {imgLang:"imgskills/php.svg" ,Lang:"php"},
         {imgLang:"imgskills/wp.svg" ,Lang:"wordpress"},
-        {imgLang:"imgskills/sass.svg" ,Lang:"sass"},
       ]
     }
   }

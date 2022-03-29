@@ -4,7 +4,7 @@
             <router-link class="nav1" to="/"><img class="nav3" style="width:100%" src="@/assets/Illuminati-Logo.png" alt=""></router-link>
         </div>
         <div v-else>
-            <router-link class="nav1" to="/"><img class="nav3" style="width:100%" src="@/assets/logo.png" alt=""></router-link>
+            <router-link class="nav1" to="/"><img class="nav3" style="width:100%" src="@/assets/logo.svg" alt=""></router-link>
         </div>
         <div>
             <router-link class="nav" to="/"><i class="fas fa-home"></i></router-link>
@@ -25,7 +25,6 @@ export default {
     name:'HeaderNavTop',
     data(){
         return{
-            logo:"@/assets/logo.png",
             urlLink:"https://www.linkedin.com/in/Renaudfradin/",
             urlGit:"https://github.com/Renaudfradin"
         }
