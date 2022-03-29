@@ -1,6 +1,6 @@
 <template>
 <div class="info_projet">
-  <div v-for="(projet , index) in jsonData" v-bind:key="index"> 
+  <div v-for="(projet , index) in jsonProjet" v-bind:key="index"> 
     <div v-for="(projetss , index2) in projet" v-bind:key="index2">
       <div v-if="projetss.nomProjet == $route.params.name" >
         <h3 class="titlte_project">{{projetss.nomProjet}}</h3>
@@ -30,11 +30,11 @@
 
 <script>
 import { defineComponent } from 'vue';
-import json from '../jsondata/data.json';
+import json from '../JsonData/DataProjet.json';
 export default defineComponent({
   data(){
     return{
-      jsonData:json
+      jsonProjet:json
     }
   }
 })

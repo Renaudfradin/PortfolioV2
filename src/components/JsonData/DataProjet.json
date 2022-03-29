@@ -1,0 +1,139 @@
+{
+    "projet":[
+    { 
+        "nomProjet":"BonCoinPauvre2",
+        "diescriptionProjet":"Si toi aussi tu refuses de dépenser des dizaines voir des centaines d'euros pour des produits d'occasion, PAS DE PANIQUE ! Il y a autant de rats que d'humains sur Terre , et tu fais juste partie de la classe des mammiféres vertébrés !",
+        "stackProjet":
+        [
+            {"stack1":"SYMFONY"}
+        ],
+        "realisationProjet":"JANVIER 2022 - JANVIER 2022",
+        "imgProjet":"imgwork/LeboncoinDuPauvre.png",
+        "imgProjet1":"../imgwork1/LeboncoinDuPauvre.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/BonCoinPauvre2",
+        "urlSiteProjet":"rien"
+    },
+
+    { 
+        "nomProjet":"SAOARS-DB",
+        "diescriptionProjet":"Site regroupant tous les personnages du jeu mobile Sword Art Online Alicization Rising Steel. Le site fonctionne avec l'api API-SAOARS.",
+        "stackProjet":
+        [
+            {"stack1":"VUE"}
+        ],
+        "realisationProjet":"AVRIL 2021 - en cour ",
+        "imgProjet":"imgwork/saoarsdb.png",
+        "imgProjet1":"../imgwork1/saoarsdb.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/SAOARS-DBV1",
+        "urlSiteProjet":"https://saoars-db.netlify.app"
+    },
+    
+    {
+        "nomProjet":"API-SAOARS",
+        "diescriptionProjet":"API qui regroupe les personnages du jeu mobile Sword Art Online Alicization Rising Steel.",
+        "stackProjet":
+        [
+            {"stack1":"NODE"},
+            {"stack2":"EXPRESS"}
+        ],
+        "realisationProjet":"JANVIER 2021 - en cour ",
+        "imgProjet":"imgwork/apisaoars.png",
+        "imgProjet1":"../imgwork1/apisaoars.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/API-SAOARS",
+        "urlSiteProjet":"https://api-saoars.herokuapp.com/"
+    },
+
+    {
+        "nomProjet":"NUMBER 10",
+        "diescriptionProjet":"Projet de cours.",
+        "stackProjet":
+        [
+            {"stack1":"WORDPRESS"}
+        ],
+        "realisationProjet":"Mars 2021 - Mars 2021",
+        "imgProjet":"imgwork/number10.png",
+        "imgProjet1":"../imgwork1/number10.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/numbers10",
+        "urlSiteProjet":"rien"
+    },
+
+    {
+        "nomProjet":"EIGA",
+        "diescriptionProjet":"Projet de cours utilisant l'api IMDB.",
+        "stackProjet":
+        [
+            {"stack1":"REACT"}
+        ],
+        "realisationProjet":"Novembre 2020 - Novembre 2020",
+        "imgProjet":"imgwork/eiga.png",
+        "imgProjet1":"../imgwork1/eiga.png",
+        "urlCodeProjet":"https://github.com/anthony-roux/Movie-Search-Engine_tp",
+        "urlSiteProjet":"https://eiga.netlify.app/"
+    },
+
+    {
+        "nomProjet":"PROTFOLIO V2",
+        "diescriptionProjet":"Portfolio qui regroupe mes compétences et mes projets.",
+        "stackProjet":
+        [
+            {"stack1":"VUE"}
+        ],
+        "realisationProjet":"Octobre 2020",
+        "imgProjet":"imgwork/portfoliov2.png",
+        "imgProjet1":"../imgwork1/portfoliov2.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/PortfolioV2",
+        "urlSiteProjet":"https://portfolio-renaud-fradin.netlify.app"
+    },
+
+    {
+        "nomProjet":"The Skateshop",
+        "diescriptionProjet":"Site vitrine de vente de skate.",
+        "stackProjet":
+        [
+            {"stack1":"HTML"},
+            {"stack2":"CSS"},
+            {"stack3":"JS"}
+        ],
+        "realisationProjet":"Avril 2020",
+        "imgProjet":"imgwork/TheSkateshop.png",
+        "imgProjet1":"../imgwork1/TheSkateshop.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/The-Skateshop",
+        "urlSiteProjet":"https://renaudfradin.github.io/The-Skateshop/"
+    },
+
+    {
+        "nomProjet":"GSB-PHP",
+        "diescriptionProjet":"Application de gestion de frais réalisé pendant mon bts SIO.",
+        "stackProjet":
+        [
+            {"stack1":"BULMA"},
+            {"stack2":"PHP"},
+            {"stack3":"SQL"}
+        ],
+        "realisationProjet":"Mars 2020 - Juin 2020",
+        "imgProjet":"imgwork/gsb.png",
+        "imgProjet1":"../imgwork1/gsb.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/GSB-PHP",
+        "urlSiteProjet":"rien"
+    },
+
+    {
+        "nomProjet":"Location-Cars-V1",
+        "diescriptionProjet":"Site de locations de voitures (ﬁctif).",
+        "stackProjet":
+        [
+            {"stack1":"HTML"},
+            {"stack2":"CSS"},
+            {"stack3":"JS"},
+            {"stack4":"PHP"},
+            {"stack5":"SQL"}
+        ],
+        "realisationProjet":"Avril 2019 - Juin 2019",
+        "imgProjet":"imgwork/locationscars.png",
+        "imgProjet1":"../imgwork1/locationscars.png",
+        "urlCodeProjet":"https://github.com/Renaudfradin/location-car-v1/tree/master/location-cars",
+        "urlSiteProjet":"rien"
+    }
+
+    ]
+}
