@@ -1,13 +1,20 @@
-<template>
-  <Works />
-</template>
 <script>
-import { defineComponent } from 'vue';
-import Works from '../components/Works/Works.vue';
+import { defineComponent } from "vue"
+import Works from '../components/Works/Works.vue'
+
 export default defineComponent({
-  components: { Works }
+    components:{
+        Works
+    }
 })
 </script>
-<style scoped>
+
+<template>
+    <div>
+        <Works />
+    </div>
+</template>
+
+<style>
 
 </style>

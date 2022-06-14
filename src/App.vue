@@ -1,36 +1,28 @@
-<template>
-    <HeaderNavTop></HeaderNavTop>
-    <router-view />
-</template>
-
 <script>
-import HeaderNavTop from './components/HeaderNavTop/HeaderNavTop.vue'
+import { RouterLink, RouterView } from 'vue-router'
+import NavBar from '../src/components/NavBar/NavBar.vue'
+
 export default {
-  name: 'App',
   components: {
-    HeaderNavTop,
+    NavBar,
   }
 }
 </script>
 
+<template>
+  <NavBar />
+  <div class="app">
+    <RouterView />
+  </div>
+</template>
+
 <style>
 html{
-  background-color: #222;
-  margin: 0%;
-  padding: 0%;
+  background-color: #222222;
+  height: 100vh;
 }
 body{
   margin: 0%;
   padding: 0%;
-}
-#app{
-  display: flex;
-  background:#222;
-}
-@media screen and (max-width:770px){
-  #app{
-    display: block;
-    background:#222;
-  }
 }
 </style>

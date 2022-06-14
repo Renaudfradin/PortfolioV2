@@ -1,84 +1,71 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/home.vue';
-import About from '../views/about.vue';
-import Skills from '../views/skills.vue';
-import Works from '../views/works.vue';
-import Contact from '../views/contact.vue';
-import Work from '../components/Work/Work.vue'
-import Notfound from '../views/404';
-
-const routes = [
-  {
-    name: 'Home',
-    path: '/',
-    component:Home,
-    meta: {
-      title: 'Home'
-    }
-  },
-  {
-    name: 'About',
-    path: '/About',
-    component:About,
-    meta: {
-      title: 'About'
-    }
-  },
-  {
-    name: 'Skills',
-    path: '/Skills',
-    component:Skills,
-    meta: {
-      title: 'Skills'
-    }
-  },
-  {
-    name: 'Works',
-    path: '/Works',
-    component:Works,
-    meta: {
-      title: 'Works'
-    }
-  },
-  {
-    name: 'Work',
-    path: '/Work/:name',
-    component:Work,
-    meta:{
-      title: `Projet`
-    }
-  },
-  {
-    name: 'Contact',
-    path: '/Contact',
-    component:Contact,
-    meta: {
-      title: 'Contact'
-    }
-  },
-  {
-    name: 'Notfound',
-    path: '/404',
-    component:Notfound,
-    meta:{
-      title: '404 - ON OBSERVE'
-    }
-  },
-  {
-    path: '/:catchAll(.*)',
-    redirect: '/404'
-  }
-];
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from '@/views/Home.vue'
+import About from '@/views/About.vue'
+import Skills from '@/views/Skills.vue'
+import Works from '@/views/Works.vue'
+import Contact from '@/views/Contact.vue'
+import NotFound from '@/views/404.vue'
 
 const router = createRouter({
-  mode: 'history',
-  history: createWebHistory(process.env.BASE_URL),
-  routes,
-});
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: '/',
+      name: 'home',
+      component: Home,
+      meta:{
+        title: 'Home'
+      }
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About,
+      meta:{
+        title: 'About'
+      }
+    },
+    {
+      path: '/Skills',
+      name: 'Skills',
+      component: Skills,
+      meta:{
+        title: 'Skills'
+      }
+    },
+    {
+      path: '/Works',
+      name: 'Works',
+      component: Works,
+      meta:{
+        title: 'Works'
+      }
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: Contact,
+      meta:{
+        title: 'Contact'
+      }
+    },
+    {
+      path: '/404',
+      name: 'NotFound',
+      component: NotFound,
+      meta:{
+        title: '404'
+      }
+    },
+    {
+      path: '/:catchAll(.*)',
+      redirect: '/404'
+    }
+  ]
+})
 
 router.afterEach((to, from) => {
-  console.log(from);
   document.title = to.meta.title;
 });
 
-export default router;
+export default router

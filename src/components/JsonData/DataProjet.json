@@ -11,7 +11,7 @@
         "imgProjet":"imgwork/LeboncoinDuPauvre.png",
         "imgProjet1":"../imgwork1/LeboncoinDuPauvre.png",
         "urlCodeProjet":"https://github.com/Renaudfradin/BonCoinPauvre2",
-        "urlSiteProjet":"rien"
+        "urlSiteProjet":null
     },
 
     { 
@@ -54,7 +54,7 @@
         "imgProjet":"imgwork/number10.png",
         "imgProjet1":"../imgwork1/number10.png",
         "urlCodeProjet":"https://github.com/Renaudfradin/numbers10",
-        "urlSiteProjet":"rien"
+        "urlSiteProjet":null
     },
 
     {
@@ -114,7 +114,7 @@
         "imgProjet":"imgwork/gsb.png",
         "imgProjet1":"../imgwork1/gsb.png",
         "urlCodeProjet":"https://github.com/Renaudfradin/GSB-PHP",
-        "urlSiteProjet":"rien"
+        "urlSiteProjet":null
     },
 
     {
@@ -132,7 +132,7 @@
         "imgProjet":"imgwork/locationscars.png",
         "imgProjet1":"../imgwork1/locationscars.png",
         "urlCodeProjet":"https://github.com/Renaudfradin/location-car-v1/tree/master/location-cars",
-        "urlSiteProjet":"rien"
+        "urlSiteProjet":null
     }
 
     ]

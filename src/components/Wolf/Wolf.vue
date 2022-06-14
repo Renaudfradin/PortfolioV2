@@ -1,26 +1,19 @@
-<template>
-  <div class="imgLoup">
-    <img src="@/assets/loup2.svg" alt="" srcset="">
-  </div>
-</template>
 <script>
-export default {
-    name:'Wolf',
-    data(){
-        return{
-
-        }
-    }
-}
+import { defineComponent } from 'vue'
+export default defineComponent({
+    setup() { },
+})
 </script>
-<style scoped>
-svg {
-  display: block;
-  margin: 0 auto;
-}
-.imgLoup{
-  text-align: center;
-  color: white;
-  stroke: white;
+
+
+<template>
+    <div class="wolf">
+        <img src="@/assets/loup2.svg" alt="" srcset="">
+    </div>
+</template>
+
+<style>
+.wolf{
+    width: 50%;
 }
 </style>
