@@ -3,6 +3,7 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Skills from '@/views/Skills.vue'
 import Works from '@/views/Works.vue'
+import Work from '@/components/Work/Work.vue'
 import Contact from '@/views/Contact.vue'
 import NotFound from '@/views/404.vue'
 
@@ -42,6 +43,14 @@ const router = createRouter({
       }
     },
     {
+      path: '/Work/:name',
+      name: 'Work',
+      component: Work,
+      meta:{
+        title: 'Projet'
+      }
+    },
+    {
       path: '/Contact',
       name: 'Contact',
       component: Contact,
@@ -59,6 +68,10 @@ const router = createRouter({
     },
     {
       path: '/:catchAll(.*)',
+      redirect: '/404'
+    },
+    {
+      path: '/Work/:catchAll(.*)',
       redirect: '/404'
     }
   ]

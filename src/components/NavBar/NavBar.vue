@@ -3,6 +3,12 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   setup() { },
+  data(){
+    return{
+      urlLink:"https://www.linkedin.com/in/renaudfradin/",
+      urlGit:"https://github.com/Renaudfradin"
+    }
+  }
 })
 </script>
 
