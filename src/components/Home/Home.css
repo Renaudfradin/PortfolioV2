@@ -1,3 +1,59 @@
 .presentation{
-    width: 50%;
+  width: 45%;
+  font-family: Secular One,sans-serif;
+}
+
+.btnContact{
+  border: 1px solid #08fdd8;
+  background-color: #2b2b2b;
+  font-size: 16px;
+  letter-spacing: 3px;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  border-radius: 0;
+  color: #08fdd8;
+  text-align: center;
+  display: block;
+  width: 30%;
+  text-decoration: none;
+}
+
+.btnContact:hover{
+  background-color:#08fdd8;
+  color:#2b2b2b;
+}
+
+.descriptionPresentation{
+  margin-bottom: 5px;
+}
+
+.presentation h3 {
+  color: #08fdd8;
+  font-size: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+} 
+
+.descriptionPresentation{
+  color: #fff;
+}
+
+@media screen and (max-width:768px){
+  .presentation{
+    width: 90%;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .btnContact{
+    width: 60%;
+    margin: auto;
+  }
+
+  .presentation h3 {
+    color: #08fdd8;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  } 
 }

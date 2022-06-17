@@ -1,0 +1,28 @@
+{
+  "Stack":[
+    {
+      "titleStack":"Vue.JS",
+      "imgStack":"imgSkill/vuejs.svg"
+    },
+    {
+      "titleStack":"Node.JS",
+      "imgStack":"imgSkill/node.svg"
+    },
+    {
+      "titleStack":"JS",
+      "imgStack":"imgSkill/js.svg"
+    },
+    {
+      "titleStack":"Php",
+      "imgStack":"imgSkill/php.svg"
+    },
+    {
+      "titleStack":"Symfony",
+      "imgStack":"imgSkill/symfony.svg"
+    },
+    {
+      "titleStack":"Wordpress",
+      "imgStack":"imgSkill/wp.svg"
+    }
+  ]
+}

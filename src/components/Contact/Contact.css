@@ -1,0 +1,19 @@
+.contactCard{
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  font-family: Secular One,sans-serif;
+}
+
+.contactTitle{
+  color: #08fdd8;
+}
+
+.contactLink{
+  color: #08fdd8;
+}

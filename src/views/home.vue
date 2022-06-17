@@ -19,6 +19,18 @@ export default defineComponent({
 <style>
 .parentHome{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width:768px){
+  .parentHome{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+  }
 }
 </style>

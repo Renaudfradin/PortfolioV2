@@ -1,17 +1,15 @@
 <script>
 import { defineComponent } from "vue"
+import Skill from '../components/Skills/Skills.vue'
 
 export default defineComponent({
-    setup() {
-        
-    },
+    setup() { },
+    components:{ Skill }
 })
 </script>
 
 <template>
-    <div>
-        <h1> Skills page</h1>
-    </div>
+  <Skill />
 </template>
 
 <style>

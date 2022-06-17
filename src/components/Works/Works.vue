@@ -13,7 +13,7 @@ export default defineComponent({
   methods:{
     searchWorks(){
       let searchInput = this.searchwork.toLowerCase();
-      let filterArray = this.jsonWorks.project.filter(item => item.nameProjet.toLowerCase().includes(searchInput))
+      let filterArray = this.jsonWorks.project.filter(item => item.nameProject.toLowerCase().includes(searchInput))
       this.jsonResultWork = filterArray;
       if (this.jsonResultWork.length == 0) {
         console.log("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley");

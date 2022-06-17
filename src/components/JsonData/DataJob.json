@@ -1,0 +1,25 @@
+{
+  "Job":[
+    {
+      "titleJob":"Developpeur Back-End",
+      "descriptionJob":"Développement de plugins et de théme wordpress",
+      "dateJob":"Decembre 2020 - Avril 2022",
+      "entrepriseJob":"ALL IN APPLI",
+      "typeJob":"Alternance"
+    },
+    {
+      "titleJob":"Developpeur Front-End",
+      "descriptionJob":"Amélioration du front",
+      "dateJob":"Novembre 2019 - Janvier 2020",
+      "entrepriseJob":"BEARCO",
+      "typeJob":"Stage"
+    },
+    {
+      "titleJob":"Developpeur Front-End",
+      "descriptionJob":"Création du site web",
+      "dateJob":"Avril 2019 - Juin 2019",
+      "entrepriseJob":"Essid Hakim VTC",
+      "typeJob":"Stage"
+    }
+  ]
+}

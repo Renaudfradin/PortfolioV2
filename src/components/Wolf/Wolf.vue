@@ -12,8 +12,4 @@ export default defineComponent({
     </div>
 </template>
 
-<style>
-.wolf{
-    width: 50%;
-}
-</style>
+<style src="./Wolf.css" scoped> </style>

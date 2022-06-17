@@ -1,19 +1,17 @@
 <script>
 import { defineComponent } from "vue"
+import Contacts from '../components/Contact/Contact.vue'
 
 export default defineComponent({
-    setup() {
-        
-    },
+  setup() { },
+  components:{ Contacts }
 })
 </script>
 
 <template>
-    <div>
-        <h1>Contact page</h1>
-    </div>
+  <div>
+    <Contacts />
+  </div>
 </template>
 
-<style>
-
-</style>
+<style> </style>
