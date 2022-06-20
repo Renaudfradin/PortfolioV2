@@ -1,59 +1,19 @@
-.presentation{
-  display: block;
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-right: 10%;
+.contactCard{
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  font-family: Secular One,sans-serif;
 }
 
-.skills{
-  font-family: 'Secular One', sans-serif;
-  padding-left: 10%;
+.contactTitle{
   color: #08fdd8;
 }
 
-.presentation p a{
+.contactLink{
   color: #08fdd8;
-}
-
-.metier{
-  font-family: 'Secular One', sans-serif;
-  word-spacing: 5px;
-  padding-left: 10%;
-}
-
-.taile{
-  margin-left:15px;
-}
-
-@media screen and (max-width:910px) {
-.taile{
-  margin-left:0px;
-}
-
-.form-contact{
-  margin-left: 10%;
-  margin-right: 5%;
-}
-
-.skills{
-  font-family: 'Secular One', sans-serif;
-  padding-left: 10%;
-  margin-right: 5%;
-  text-align: center;
-}
-
-.metier{
-  font-family: 'Secular One', sans-serif;
-  word-spacing: 5px;
-  padding-left: 10%;
-  margin-right: 5%;
-}
-
-.presentation{
-  display: block;
-  width: 100%;
-  padding-right: 0rem;
-}
-
 }

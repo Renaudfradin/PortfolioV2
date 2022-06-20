@@ -1,4 +1,23 @@
-# Portfoliov2
+# Portfolio V2
 
-Portfolio réalisé en vue3.js qui regroupe mes compétences et mes projets.
-![alt text](https://raw.githubusercontent.com/Renaudfradin/PortfolioV2/master/src/assets/Captureportv21.PNG)
+This template should help get you started developing with Vue 3 in Vite.
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
