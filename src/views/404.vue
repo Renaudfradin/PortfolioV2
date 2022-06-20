@@ -1,20 +1,15 @@
 <script>
 import { defineComponent } from "vue";
-
+import NotFound from "../components/404/404.vue"
 export default defineComponent({
-    setup() {
-        
-    },
+  setup() { },
+  components:{ NotFound }
 })
 </script>
 
 
 <template>
-    <div>
-        <h1>404 page</h1>
-    </div>
+  <NotFound />
 </template>
 
-<style>
-
-</style>
+<style> </style>

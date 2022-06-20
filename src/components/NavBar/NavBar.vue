@@ -14,10 +14,7 @@ export default defineComponent({
 
 <template>
   <div class="header">
-    <div v-if="$route.path == '/404'">
-      <router-link class="nav1" to="/"><img class="nav3" style="width:100%" src="@/assets/Illuminati-Logo.png" alt=""></router-link>
-    </div>
-    <div v-else>
+    <div>
       <router-link class="nav1" to="/"><img class="nav3" style="width:100%" src="@/assets/logo.svg" alt=""></router-link>
     </div>
     <div>

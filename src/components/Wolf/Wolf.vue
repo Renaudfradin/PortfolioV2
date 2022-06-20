@@ -7,9 +7,9 @@ export default defineComponent({
 
 
 <template>
-    <div class="wolf">
-        <img src="@/assets/loup2.svg" alt="" srcset="">
-    </div>
+  <div class="wolf">
+    <img src="@/assets/loup.svg" alt="" srcset="">
+  </div>
 </template>
 
 <style src="./Wolf.css" scoped> </style>
