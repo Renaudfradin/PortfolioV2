@@ -1,11 +1,23 @@
-.btn-contact{
+.presentationCard{
+  width: 45%;
+  color: #fff;
+  font-size: 20px;
+  font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+}
+
+.presentationtitle{
+  font-family: Secular One,sans-serif;
+  color: #08fdd8;
+}
+
+.btnCV{
   border: 1px solid #08fdd8;
   background-color: #2b2b2b;
   font-size: 16px;
   letter-spacing: 3px;
   padding: 9px 18px;
   text-transform: uppercase;
-  border-radius: 0%;
+  border-radius: 0;
   color: #08fdd8;
   text-align: center;
   margin: auto;
@@ -14,66 +26,23 @@
   text-decoration: none;
 }
 
-.btn-contact:hover{
+.btnCV:hover{
   background-color: #08fdd8;
   color: #2b2b2b;
 }
 
-.presentation{
-  display: block;
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
-.skills{
-  font-family: 'Secular One', sans-serif;
-  padding-left: 10%;
-  color: #08fdd8;
-}
+@media screen and (max-width:768px){
+  .presentationCard{
+    width: 90%;
+    color: #fff;
+    font-size: 20px;
+    font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+  }
 
-.presentation p a{
-  color: #08fdd8;
-}
-
-.metier{
-  word-spacing: 5px;
-  padding-left: 10%;
-  font-size: 20px;
-}
-
-svg {
-  display: block;
-  margin: 0 auto;
-}
-path {
-  fill: none;
-  stroke: white;
-  stroke-width: 4;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-@media screen and (max-width:770px) {
-.taile{
-  margin-left:0px;
-}
-.skills{
-  padding-left: 10%;
-  margin-right: 5%;
-  text-align: center;
-}
-.metier{
-  word-spacing: 5px;
-  padding-left: 10%;
-  margin-right: 5%;
-}
-.home2{
-  display: block;
-}
-.presentation{
-  display: block;
-  width: 100%;
-  padding-right: 0rem;
-}
+  .presentationtitle{
+    font-family: Secular One,sans-serif;
+    color: #08fdd8;
+    text-align: center;
+  }
 }

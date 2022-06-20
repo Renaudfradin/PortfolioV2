@@ -1,0 +1,11 @@
+.gif{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+  font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+}

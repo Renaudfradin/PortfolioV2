@@ -1,67 +1,36 @@
-<template>
-<div class="home">
-	<div class="home2">
-		<About />
-		<div class="cerf">
-			<Wolf />
-		</div>
-	</div>
-</div>
-</template>
 <script>
-import { defineComponent } from 'vue';
-import About from '../components/About/About.vue';
-import Wolf from '../components/Wolf/Wolf.vue';
-export default defineComponent ({
-  components: { About, Wolf }
+import { defineComponent } from "vue";
+import Wolf from '../components/Wolf/Wolf.vue'
+import About from '../components/About/About.vue'
+
+export default defineComponent({
+  setup() { },
+  components:{ Wolf ,About }
 })
 </script>
-<style scoped> 
-.home{
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	color: white;
-	margin-left: 10%;
-	margin-right: 0%;
-	margin-top: 0%;
-	margin-bottom: 0px;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-.home2{
+<template>
+  <div class="presentations">
+    <About />
+    <Wolf />
+  </div>
+</template>
+
+<style>
+.presentations{
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
 }
 
-.cerf{
-  display: block;
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-  position: relative;
-}
-
-@media screen and (max-width:770px) {
-.home{
-  height: calc(100vh - 60px);
-  justify-content: flex-start;
-  color: white;
-  margin-left: 0%;
-  margin-right: 0%;
-}
-
-.home2{
-  display: block;
-}
-
-.cerf{
-  display: block;
-  width: 100%;
-  margin-top: 23px;
-}
-
+@media screen and (max-width:768px){
+  .presentations{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    flex-direction: column;
+  }
 }
 </style>

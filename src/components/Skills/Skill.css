@@ -1,0 +1,126 @@
+.SkillsStackJob{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  color: #fff;
+  font-family: Secular One,sans-serif;
+}
+
+.exprerience{
+  width: 40%;
+  padding-right: 40px;
+}
+
+.exprerience p a {
+  color: #08fdd8;
+}
+
+.titleExprerience{
+  color: #08fdd8;
+}
+
+.StackJob{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.stackWrap{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 90%;
+  align-items: center;
+}
+
+.stackWrap div {
+  display: flex;
+}
+
+.titleStack{
+  padding-left: 10px;
+}
+.imgStack{
+  height: 50px;
+}
+
+.jobWrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding-top: 20px;
+  width: 90%;
+}
+
+.jobWrapper div{
+  background-color: #2a2a2a;
+  padding: 30px;
+}
+
+.tileJob{
+  margin-top: 0%;
+  font-size: 20px;
+}
+
+.jobWrapper div p{
+  margin: 0%;
+  padding-bottom: 5px;
+}
+
+.descriptionJob{
+  padding-top: 10px;
+}
+
+@media screen and (max-width:770px) {
+  .SkillsStackJob{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .exprerience{
+    width: 90%;
+    padding-right: 0px;
+  }
+
+  .titleExprerience{
+    color: #08fdd8;
+    text-align: center;
+  }
+
+  .StackJob{
+    width: 90%;
+  }
+
+  .stackWrap{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 95%;
+    justify-content: center;
+  }
+
+  .jobWrapper{
+    grid-template-columns: repeat(1, 95%);
+    width: 95%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:1200px) and (min-width:771px) {
+  .SkillsStackJob{
+    height: auto;
+  }
+
+  .jobWrapper{
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+  }
+
+  .jobWrapper div{
+    background-color: #2a2a2a;
+    padding: 20px;
+  }
+}
