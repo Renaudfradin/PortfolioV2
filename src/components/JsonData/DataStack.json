@@ -23,6 +23,10 @@
     {
       "titleStack":"Wordpress",
       "imgStack":"imgSkill/wp.svg"
+    },
+    {
+      "titleStack":"Webflow",
+      "imgStack":"imgSkill/webflow.svg"
     }
   ]
 }

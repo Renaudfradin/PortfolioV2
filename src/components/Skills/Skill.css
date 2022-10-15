@@ -97,8 +97,7 @@
   .stackWrap{
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    width: 95%;
-    justify-content: center;
+    width: 100%;
   }
 
   .jobWrapper{

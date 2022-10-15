@@ -1,6 +1,13 @@
 {
   "Job":[
     {
+      "titleJob":"Developpeur Fullstack",
+      "descriptionJob":"Développement d'aplications React et node.JS",
+      "dateJob":"Septembre 2022 - ",
+      "entrepriseJob":"SCRIBEO",
+      "typeJob":"Alternance"
+    },
+    {
       "titleJob":"Developpeur Back-End",
       "descriptionJob":"Développement de plugins et de théme wordpress",
       "dateJob":"Decembre 2020 - Avril 2022",
