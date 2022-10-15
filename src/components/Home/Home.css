@@ -38,6 +38,12 @@
   color: #fff;
 }
 
+.btnBlock{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
 @media screen and (max-width:768px){
   .presentation{
     width: 90%;
