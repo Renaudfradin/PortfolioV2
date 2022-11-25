@@ -63,3 +63,12 @@
     margin-top: 0px;
   } 
 }
+
+@media screen and (max-width:426px){
+  .btnBlock{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+}
