@@ -25,7 +25,7 @@
       "imgProject":"imgwork/apisaoars.png",
       "imgProject1":"../imgwork1/apisaoars.png",
       "urlCodeProject":"https://github.com/Renaudfradin/API-SAOARS",
-      "urlSiteProject":"https://api-saoars.herokuapp.com/doc/"
+      "urlSiteProject":"https://api-saoars.vercel.app/doc/"
     },
     { 
       "nameProject":"BonCoinPauvre2",
@@ -53,19 +53,6 @@
       "urlCodeProject":"https://github.com/Renaudfradin/PortfolioV2",
       "urlSiteProject":"https://portfolio-renaud-fradin.netlify.app"
     },
-    { 
-      "nameProject":"SAOARS-DB",
-      "descriptionProject":"Site regroupant tous les personnages du jeu mobile Sword Art Online Alicization Rising Steel. Le site fonctionne avec l'api API-SAOARS.",
-      "stackProject":
-      [
-        {"stack1":"VUE"}
-      ],
-      "timeProject":"AVRIL 2022 - en cour ",
-      "imgProject":"imgwork/saoarsdb.png",
-      "imgProject1":"../imgwork1/saoarsdb.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/SAOARS-DBV1",
-      "urlSiteProject":null
-    },
     {
       "nameProject":"NUMBER 10",
       "descriptionProject":"Projet de cours.",
@@ -78,34 +65,6 @@
       "imgProject1":"../imgwork1/number10.png",
       "urlCodeProject":"https://github.com/Renaudfradin/numbers10",
       "urlSiteProject":null
-    },
-    {
-      "nameProject":"EIGA",
-      "descriptionProject":"Projet de cours utilisant l'api IMDB.",
-      "stackProject":
-      [
-        {"stack1":"REACT"}
-      ],
-      "timeProject":"Novembre 2020 - Novembre 2020",
-      "imgProject":"imgwork/eiga.png",
-      "imgProject1":"../imgwork1/eiga.png",
-      "urlCodeProject":"https://github.com/anthony-roux/Movie-Search-Engine_tp",
-      "urlSiteProject":"https://eiga.netlify.app/"
-    },
-    {
-      "nameProject":"The Skateshop",
-      "descriptionProject":"Site vitrine de vente de skate.",
-      "stackProject":
-      [
-        {"stack1":"HTML"},
-        {"stack2":"CSS"},
-        {"stack3":"JS"}
-      ],
-      "timeProject":"Avril 2020",
-      "imgProject":"imgwork/TheSkateshop.png",
-      "imgProject1":"../imgwork1/TheSkateshop.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/The-Skateshop",
-      "urlSiteProject":"https://renaudfradin.github.io/The-Skateshop/"
     },
     {
       "nameProject":"GSB-PHP",

@@ -123,3 +123,15 @@
     padding: 20px;
   }
 }
+
+@media screen and (max-width:426px) {
+  .jobWrapper{
+    grid-template-columns: repeat(1, 95%);
+    width: 95%;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
