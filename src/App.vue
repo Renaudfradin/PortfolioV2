@@ -1,15 +1,24 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from '../src/components/NavBar/NavBar.vue'
+import { useMeta } from 'vue-meta'
 
 export default {
   components: {
     NavBar,
+  },
+  setup(){
+    useMeta({
+     
+    })
   }
 }
 </script>
 
 <template>
+  <metainfo>
+    <template v-slot:title="{ content }">{{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}</template>
+  </metainfo>
   <NavBar />
   <div class="app">
     <RouterView />
