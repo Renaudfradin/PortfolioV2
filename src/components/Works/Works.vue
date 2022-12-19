@@ -8,6 +8,7 @@ export default defineComponent({
       jsonWorks: JsonData,
       searchwork: null,
       jsonResultWork: null,
+      githubResult: null
     }
   },
   methods:{
@@ -18,7 +19,7 @@ export default defineComponent({
       if (this.jsonResultWork.length == 0) {
         console.log("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley");
       }
-    }
+    },
   },
   beforeUpdate(){
     this.searchWorks();
