@@ -18,11 +18,11 @@ export default defineComponent({
       <router-link class="nav1" to="/"><img class="nav3" style="width:100%" src="@/assets/logo.svg" alt=""></router-link>
     </div>
     <div>
-      <router-link class="nav" to="/"><i class="fas fa-home"></i></router-link>
-      <router-link class="nav" to="/About"><i class="far fa-user"></i></router-link>
-      <router-link class="nav" to="/Skills"><i class="fas fa-cog"></i></router-link>
-      <router-link class="nav" to="/Works"><i class="far fa-eye"></i></router-link>
-      <router-link class="nav" to="/Contact"><i class="far fa-envelope"></i></router-link>
+      <router-link class="nav" to="/" active-class="acticeClass"><i class="fas fa-home"></i></router-link>
+      <router-link class="nav" to="/About" active-class="acticeClass"><i class="far fa-user"></i></router-link>
+      <router-link class="nav" to="/Skills" active-class="acticeClass"><i class="fas fa-cog"></i></router-link>
+      <router-link class="nav" to="/Works" active-class="acticeClass"><i class="far fa-eye"></i></router-link>
+      <router-link class="nav" to="/Contact" active-class="acticeClass"><i class="far fa-envelope"></i></router-link>
     </div>
     <div>
       <a class="nav" :href="urlLink" target="_blank"><i class="fab fa-linkedin-in"></i></a>
