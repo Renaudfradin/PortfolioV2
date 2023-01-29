@@ -1,17 +1,17 @@
 {
   "project":[
     {
-      "nameProject":"Theme Frost",
-      "descriptionProject":"Thème discord pour BetterDiscord.",
+      "nameProject":"Theme Aurora",
+      "descriptionProject":"Thème Aurora pour BetterDiscord",
       "stackProject":
       [
         {"stack1":"CSS"}
       ],
-      "timeProject":"Octobre 2022",
-      "imgProject":"imgwork/themeFrost.png",
-      "imgProject1":"../imgwork1/themeFrost.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/Themefrost",
-      "urlSiteProject":"https://github.com/Renaudfradin/Themefrost/archive/refs/tags/1.1.1.zip"
+      "timeProject":"Janvier 2023",
+      "imgProject":"imgwork/themeAurora.png",
+      "imgProject1":"../imgwork1/themeAurora.png",
+      "urlCodeProject":"https://github.com/Renaudfradin/Theme-Aurora",
+      "urlSiteProject":"https://github.com/Renaudfradin/Theme-Aurora/archive/refs/tags/1.2.1.zip"
     },
     {
       "nameProject":"API-SAOARS",
