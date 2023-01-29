@@ -6,5 +6,4 @@ import { createMetaManager } from 'vue-meta'
 const app = createApp(App)
   .use(router)
   .use(createMetaManager ())
-
 app.mount('#app')

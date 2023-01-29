@@ -7,10 +7,15 @@ export default defineComponent({
       dateResult: null
     }
   },
+  methods:{
+    dateAniversary(){
+      const dateDirthDay = new Date('Januery 17, 2000 14:00:00').getFullYear()
+      const acuelleDate = new Date().getFullYear();
+      return this.dateResult = acuelleDate - dateDirthDay;
+    }
+  },
   created(){
-    const dateDirthDay = new Date('Januery 17, 2000 14:00:00').getFullYear()
-    const acuelleDate = new Date().getFullYear();
-    this.dateResult = acuelleDate - dateDirthDay;
+    this.dateAniversary();
   }
 })
 </script>
@@ -18,7 +23,7 @@ export default defineComponent({
 <template>
   <div class="presentationCard">
     <h3 class="presentationtitle">Présentation</h3>
-    <p>Je suis un étudiant de {{dateResult}} ans.</p>
+    <p>Je suis un étudiant de {{dateAniversary()}} ans.</p>
     <p>Je suis actuellement en Mastère CTO & Tech Lead a l'école EEMI.</p>
     <p>J'ai obtenu un Bachelor développeur web à Hetic en septembre 2022.</p>
     <p>J'ai obtenu un BTS SIO (Service Informatique aux Organisations) SLAM (Solutions Logicielles et Applications Métiers) en juin 2020.</p>
