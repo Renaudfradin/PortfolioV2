@@ -3,6 +3,15 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   setup() { },
+  data() {
+    return {
+      test: '',
+      sujet: '',
+      content: '',
+      form_name: '',
+      from_email: '',
+    }
+  }
 })
 </script>
 
