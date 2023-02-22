@@ -18,10 +18,9 @@ export default defineComponent({
   <div class="SkillsStackJob">
     <div class="exprerience">
       <h2 class="titleExprerience">Skills & Expérience</h2>
-      <p>Je suis intéressé par le développement front-end et back-end.</p>
-      <p>Je suis plus attiré par le front-end.</p>
+      <p>Je suis intéressé par le développement front-end.</p>
       <p>J'utilise le plus souvent les framework React.js , Vue.js et Node.js .</p>
-      <p>J'utilise aussi des framework comme Symfony et des cms comme Wordpress et Webflow.</p>
+      <p>J'utilise aussi des cms comme Wordpress et Webflow.</p>
       <p>Visitez mon profil <a href="https://www.linkedin.com/in/Renaudfradin/">Linkedin</a> pour plus de détails et mon <a href="https://github.com/Renaudfradin">Github</a> pour voir mes projets.</p>
       <div class="stackWrap">
         <div v-for="(stack , index) in Stack.Stack" v-bind:key="index">
