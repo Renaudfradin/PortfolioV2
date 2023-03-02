@@ -1,20 +1,18 @@
 <script>
 import { defineComponent } from "vue"
-import Works from '../components/Works/Works.vue'
+import Works from '@components/Works/Works.vue'
 
 export default defineComponent({
-    components:{
-        Works
-    }
+  components:{
+    Works
+  }
 })
 </script>
 
 <template>
-    <div>
-        <Works />
-    </div>
+  <div>
+    <Works />
+  </div>
 </template>
 
-<style>
-
-</style>
+<style> </style>

@@ -1,10 +1,10 @@
 <script>
 import { defineComponent } from "vue"
-import Skill from '../components/Skills/Skills.vue'
+import Skill from '@components/Skills/Skills.vue'
 
 export default defineComponent({
-    setup() { },
-    components:{ Skill }
+  setup() { },
+  components:{ Skill }
 })
 </script>
 
@@ -12,6 +12,4 @@ export default defineComponent({
   <Skill />
 </template>
 
-<style>
-
-</style>
+<style> </style>

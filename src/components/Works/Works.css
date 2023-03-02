@@ -90,8 +90,19 @@
   height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
+  background-color: #222222;
+  border: 1px solid #08fdd8;
+  color: #08fdd8;
+}
+
+.inputSearchwork::placeholder{
+  color: #4c887f;
+}
+
+.inputSearchwork:focus-visible{
+  outline: 1px solid #08fdd8;
 }
 
 @media screen and (max-width:650px) {
@@ -110,6 +121,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #08fdd8;
   }
 }
 
@@ -129,6 +144,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #08fdd8;
   }
 }
 
@@ -148,6 +167,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #08fdd8;
   }
 }
 
@@ -159,16 +182,18 @@
     grid-row-gap: 20px;
     place-content: end;
     padding-bottom: 30px;
+    justify-content: center;
   }
 }
 
-@media screen and (min-width:2441px){
+@media screen and (min-width:2500px){
   .worksWrapper{
     display: grid;
-    grid-template-columns: repeat(5, 22%);
+    grid-template-columns: repeat(4, 20%);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     place-content: end;
     padding-bottom: 30px;
+    justify-content: center;
   }
 }
