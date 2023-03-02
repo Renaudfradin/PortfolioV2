@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/views/home.vue'
-import About from '@/views/about.vue'
-import Skills from '@/views/skills.vue'
-import Works from '@/views/works.vue'
-import Work from '@/components/Work/Work.vue'
-import Contact from '@/views/contact.vue'
-import NotFound from '@/views/404.vue'
+import Home from '@views/home.vue'
+import About from '@views/about.vue'
+import Skills from '@views/skills.vue'
+import Works from '@views/works.vue'
+import Work from '@components/Work/Work.vue'
+import Contact from '@views/contact.vue'
+import NotFound from '@views/404.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
