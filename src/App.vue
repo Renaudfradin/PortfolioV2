@@ -1,5 +1,4 @@
 <script>
-import { RouterLink, RouterView } from 'vue-router'
 import NavBar from '@components/NavBar/NavBar.vue'
 import { useMeta } from 'vue-meta'
 
@@ -9,7 +8,8 @@ export default {
   },
   setup(){
     useMeta({
-     
+      title: 'Portfolio',
+      htmlAttrs: { lang: 'en', amp: true },
     })
   }
 }
