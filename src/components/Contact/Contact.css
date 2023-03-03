@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: flex-start;
   margin: auto;
-  font-family: Secular One,sans-serif;
 }
 
 .contactTitle{
@@ -16,4 +15,34 @@
 
 .contactLink{
   color: #08fdd8;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInput{
+  background-color: #222222;
+  border: 1px solid #08fdd8;
+}
+
+@media screen and (max-width:425px){
+  .contactCard {
+    color: #fff;
+    display: flex;
+    height: auto;
+    width: 90%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contactTitle{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

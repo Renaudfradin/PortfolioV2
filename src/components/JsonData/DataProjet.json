@@ -9,7 +9,7 @@
       ],
       "timeProject":"Janvier - Fevrier 2023",
       "imgProject":"imgwork/saoub.PNG",
-      "imgProject1":"../imgwork1/saoub.PNG",
+      "imgProject1":"../imgwork/saoub.PNG",
       "urlCodeProject":"https://github.com/Renaudfradin/SAOARS-UB",
       "urlSiteProject":"https://saoars-ub.netlify.app/"
     },
@@ -22,7 +22,7 @@
       ],
       "timeProject":"Janvier 2023",
       "imgProject":"imgwork/themeAurora.png",
-      "imgProject1":"../imgwork1/themeAurora.png",
+      "imgProject1":"../imgwork/themeAurora.png",
       "urlCodeProject":"https://github.com/Renaudfradin/Theme-Aurora",
       "urlSiteProject":"https://github.com/Renaudfradin/Theme-Aurora/archive/refs/tags/1.2.2.zip"
     },
@@ -36,7 +36,7 @@
       ],
       "timeProject":"Avril 2022 - juin 2022",
       "imgProject":"imgwork/apisaoars.png",
-      "imgProject1":"../imgwork1/apisaoars.png",
+      "imgProject1":"../imgwork/apisaoars.png",
       "urlCodeProject":"https://github.com/Renaudfradin/API-SAOARS",
       "urlSiteProject":"https://api-saoars.vercel.app/doc/"
     },
@@ -49,12 +49,12 @@
       ],
       "timeProject":"JANVIER 2022 - JANVIER 2022",
       "imgProject":"imgwork/LeboncoinDuPauvre.png",
-      "imgProject1":"../imgwork1/LeboncoinDuPauvre.png",
+      "imgProject1":"../imgwork/leboncoinDuPauvre.png",
       "urlCodeProject":"https://github.com/Renaudfradin/BonCoinPauvre2",
       "urlSiteProject":null
     },
     {
-      "nameProject":"PROTFOLIO V2",
+      "nameProject":"PORTFOLIO V2",
       "descriptionProject":"Portfolio qui regroupe mes compétences et mes projects.",
       "stackProject":
       [
@@ -62,7 +62,7 @@
       ],
       "timeProject":"Janvier 2020",
       "imgProject":"imgwork/portfoliov2.png",
-      "imgProject1":"../imgwork1/portfoliov2.png",
+      "imgProject1":"../imgwork/portfoliov2.png",
       "urlCodeProject":"https://github.com/Renaudfradin/PortfolioV2",
       "urlSiteProject":"https://portfolio-renaud-fradin.netlify.app"
     },
@@ -75,7 +75,7 @@
       ],
       "timeProject":"Mars 2021 - Mars 2021",
       "imgProject":"imgwork/number10.png",
-      "imgProject1":"../imgwork1/number10.png",
+      "imgProject1":"../imgwork/number10.png",
       "urlCodeProject":"https://github.com/Renaudfradin/numbers10",
       "urlSiteProject":null
     },
@@ -90,7 +90,7 @@
       ],
       "timeProject":"Mars 2020 - Juin 2020",
       "imgProject":"imgwork/gsb.png",
-      "imgProject1":"../imgwork1/gsb.png",
+      "imgProject1":"../imgwork/gsb.png",
       "urlCodeProject":"https://github.com/Renaudfradin/GSB-PHP",
       "urlSiteProject":null
     }

@@ -1,7 +1,7 @@
 <script>
 import { defineComponent } from "vue";
-import Wolf from '../components/Wolf/Wolf.vue'
-import About from '../components/About/About.vue'
+import Wolf from '@components/Wolf/Wolf.vue'
+import About from '@components/About/About.vue'
 
 export default defineComponent({
   setup() { },

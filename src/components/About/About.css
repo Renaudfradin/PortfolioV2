@@ -6,7 +6,6 @@
 }
 
 .presentationtitle{
-  font-family: Secular One,sans-serif;
   color: #08fdd8;
 }
 
@@ -41,8 +40,13 @@
   }
 
   .presentationtitle{
-    font-family: Secular One,sans-serif;
     color: #08fdd8;
     text-align: center;
+  }
+}
+
+@media screen and (max-width:426px){
+  .btnCV{
+    width: 50%;
   }
 }

@@ -90,8 +90,19 @@
   height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: center;
+  background-color: #222222;
+  border: 1px solid #08fdd8;
+  color: #08fdd8;
+}
+
+.inputSearchwork::placeholder{
+  color: #4c887f;
+}
+
+.inputSearchwork:focus-visible{
+  outline: 1px solid #08fdd8;
 }
 
 @media screen and (max-width:650px) {
@@ -110,10 +121,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #08fdd8;
   }
 }
 
-@media screen and (max-width:800px) and (min-width:651px){
+@media screen and (max-width:830px) and (min-width:651px){
   .worksWrapper{
     display: grid;
     grid-template-columns: repeat(2, 45%);
@@ -121,6 +136,7 @@
     grid-row-gap: 20px;
     place-content: center;
     padding-bottom: 30px;
+    justify-content: end;
   }
 
   .inputSearchwork{
@@ -129,10 +145,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #08fdd8;
   }
 }
 
-@media screen and (max-width:1440px) and (min-width:801px){
+@media screen and (max-width:1281px) and (min-width:830px){
   .worksWrapper{
     display: grid;
     grid-template-columns: repeat(3, 30%);
@@ -148,10 +168,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #222222;
+    border: 1px solid #08fdd8;
   }
 }
 
-@media screen and (max-width:2440px) and (min-width:1141px){
+@media screen and (max-width:2440px) and (min-width:1282px){
   .worksWrapper{
     display: grid;
     grid-template-columns: repeat(4, 22%);
@@ -159,16 +183,18 @@
     grid-row-gap: 20px;
     place-content: end;
     padding-bottom: 30px;
+    justify-content: center;
   }
 }
 
-@media screen and (min-width:2441px){
+@media screen and (min-width:2500px){
   .worksWrapper{
     display: grid;
-    grid-template-columns: repeat(5, 22%);
+    grid-template-columns: repeat(4, 20%);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     place-content: end;
     padding-bottom: 30px;
+    justify-content: center;
   }
 }

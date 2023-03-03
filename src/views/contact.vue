@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "vue"
-import Contacts from '../components/Contact/Contact.vue'
+import Contacts from '@components/Contact/Contact.vue'
 
 export default defineComponent({
   setup() { },

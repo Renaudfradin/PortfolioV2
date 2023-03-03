@@ -1,6 +1,5 @@
 <script>
-import { RouterLink, RouterView } from 'vue-router'
-import NavBar from '../src/components/NavBar/NavBar.vue'
+import NavBar from '@components/NavBar/NavBar.vue'
 import { useMeta } from 'vue-meta'
 
 export default {
@@ -9,7 +8,8 @@ export default {
   },
   setup(){
     useMeta({
-     
+      title: 'Portfolio',
+      htmlAttrs: { lang: 'en', amp: true },
     })
   }
 }
@@ -29,9 +29,23 @@ export default {
 html{
   background-color: #222222;
   height: 100vh;
+  font-family: Secular One,sans-serif;
 }
 body{
   margin: 0%;
   padding: 0%;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1c181f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #08e5c4; 
+  border-radius: 10px;
 }
 </style>
