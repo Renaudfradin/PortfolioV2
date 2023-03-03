@@ -27,8 +27,8 @@ export default defineComponent({
           </p>
         </div>
         <div class="Workbtn">
-          <a v-if="projects.urlCodeProject != null" :href="projects.urlCodeProject" class="btnWork" target="_blank">site</a>
-          <a v-if="projects.urlSiteProject != null" :href="projects.urlSiteProject" class="btnWork" target="_blank">code</a>
+          <a v-if="projects.urlCodeProject != null" :href="projects.urlCodeProject" class="btnWork" target="_blank">code</a>
+          <a v-if="projects.urlSiteProject != null" :href="projects.urlSiteProject" class="btnWork" target="_blank">site</a>
         </div>
       </div>
   </div>

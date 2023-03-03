@@ -46,9 +46,6 @@ const router = createRouter({
       path: '/Work/:name',
       name: 'Work',
       component: Work,
-      meta:{
-        title: 'Projet'
-      }
     },
     {
       path: '/Contact',
@@ -79,6 +76,9 @@ const router = createRouter({
 
 router.afterEach((to, from) => {
   document.title = to.meta.title;
+  if (router.currentRoute._value.name == "Work") {
+     document.title = router.currentRoute._value.params.name
+  }
 });
 
 export default router

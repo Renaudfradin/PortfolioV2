@@ -29,6 +29,7 @@ export default {
 html{
   background-color: #222222;
   height: 100vh;
+  font-family: Secular One,sans-serif;
 }
 body{
   margin: 0%;
