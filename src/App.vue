@@ -1,51 +1,38 @@
-<script>
-import NavBar from '@components/NavBar/NavBar.vue'
-import { useMeta } from 'vue-meta'
+<template>
+  <div id="app">
+    <HeaderNavTop></HeaderNavTop>
+    <router-view></router-view>
+  </div>
+</template>
 
+<script>
+import HeaderNavTop from './components/HeaderNavTop/HeaderNavTop.vue'
 export default {
+  name: 'App',
   components: {
-    NavBar,
-  },
-  setup(){
-    useMeta({
-      title: 'Portfolio',
-      htmlAttrs: { lang: 'en', amp: true },
-    })
+    HeaderNavTop,
   }
 }
 </script>
 
-<template>
-  <metainfo>
-    <template v-slot:title="{ content }">{{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}</template>
-  </metainfo>
-  <NavBar />
-  <div class="app">
-    <RouterView />
-  </div>
-</template>
-
 <style>
 html{
-  background-color: #222222;
-  height: 100vh;
-  font-family: Secular One,sans-serif;
+  background-color: #222;
+  margin: 0%;
+  padding: 0%;
 }
 body{
   margin: 0%;
   padding: 0%;
 }
-
-::-webkit-scrollbar {
-  width: 15px;
+#app{
+  display: flex;
+  background:#222;
 }
-
-::-webkit-scrollbar-track {
-  background-color: #1c181f;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #08e5c4; 
-  border-radius: 10px;
+@media screen and (max-width:770px){
+  #app{
+    display: block;
+    background:#222;
+  }
 }
 </style>

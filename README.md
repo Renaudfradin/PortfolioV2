@@ -1,15 +1,4 @@
-# Portfolio V2
+# portfoliov2
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
+Portfolio qui regroupe mes compétences et mes projets
+![alt text](https://raw.githubusercontent.com/Renaudfradin/PortfolioV2/master/src/assets/Captureportv21.PNG)

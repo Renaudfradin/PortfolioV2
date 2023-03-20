@@ -1,9 +1,16 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-import { createMetaManager } from 'vue-meta'
+import VueRouter from 'vue-router'
+import Routes from './Routes.js'
 
-const app = createApp(App)
-  .use(router)
-  .use(createMetaManager ())
-app.mount('#app')
+Vue.config.productionTip = false
+Vue.use(VueRouter)
+
+const router = new VueRouter({
+  routes:Routes,
+  mode:'history'
+})
+new Vue({
+  render: h => h(App),
+  router:router
+}).$mount('#app')
