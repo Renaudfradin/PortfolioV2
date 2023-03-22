@@ -8,8 +8,10 @@ export default defineComponent({
 
 <template>
   <div class="gif">
+    <h2>404</h2>
     <img src="@/assets/star-wars-obi-wan-kenobi.gif" alt="">
-    <h2>404 XDDDDD</h2>
+    <p>Page Not Found</p>
+    <router-link to="/">Go Home</router-link>
   </div>
 </template>
 

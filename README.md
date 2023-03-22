@@ -1,14 +1,21 @@
-# Portfolio V2
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/Renaudfradin/PortfolioV2/8394f47bbeadfc16161320cc27fa04e63b5dc625/src/assets/logo.svg" width="100" />
+</div>
+<h1 align="center">
+  portfolio-renaud-fradin.netlify.app - v2
+</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+![folio](src/assets/portfoliov2.png)
 
-## Project Setup
+## 🛠 Installation & Set Up
+
+1. Install dependencies
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+2. Start the development server
 
 ```sh
 npm run dev

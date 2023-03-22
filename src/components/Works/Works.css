@@ -15,7 +15,7 @@
 }
 
 .workTitle{
-  color: #08fdd8;
+  color: var(--primary-color);
   font-size: 1.25em;
   font-weight: bold;
 }
@@ -46,9 +46,9 @@
 }
 
 .btnStyle{
-  border: 1px solid #08fdd8;
+  border: 1px solid var(--primary-color);
   background-color: #2b2b2b;
-  color: #08fdd8;
+  color: var(--primary-color);
   text-align: center;
   font-size: 15px;
   text-decoration: none;
@@ -58,12 +58,14 @@
   width: 50%;
   display: block;
   margin-right: 5px;
-  border-radius: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .btnStyle:hover{
-  border: 1px solid #08fdd8;
-  background-color: #08fdd8;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
   color: #2b2b2b;
   text-align: center;
   font-size: 15px;
@@ -93,8 +95,8 @@
   border-radius: 5px;
   text-align: center;
   background-color: #222222;
-  border: 1px solid #08fdd8;
-  color: #08fdd8;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .inputSearchwork::placeholder{
@@ -102,7 +104,7 @@
 }
 
 .inputSearchwork:focus-visible{
-  outline: 1px solid #08fdd8;
+  outline: 1px solid var(--primary-color);
 }
 
 @media screen and (max-width:650px) {
@@ -124,7 +126,7 @@
     border-radius: 5px;
     text-align: center;
     background-color: #222222;
-    border: 1px solid #08fdd8;
+    border: 1px solid var(--primary-color);
   }
 }
 
@@ -148,7 +150,7 @@
     border-radius: 5px;
     text-align: center;
     background-color: #222222;
-    border: 1px solid #08fdd8;
+    border: 1px solid var(--primary-color);
   }
 }
 
@@ -171,7 +173,7 @@
     border-radius: 5px;
     text-align: center;
     background-color: #222222;
-    border: 1px solid #08fdd8;
+    border: 1px solid var(--primary-color);
   }
 }
 

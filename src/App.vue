@@ -26,18 +26,28 @@ export default {
 </template>
 
 <style>
+:root{
+  --primary-color: #08fdd8;
+  --secondary-color: #fff;
+  --margin-default: 0%;
+  --padding-default: 0%;
+  --hover-color-btn: #00fdd72e;
+}
+
 html{
   background-color: #222222;
+  /* background-color: rgb(10, 25, 48); */
   height: 100vh;
   font-family: Secular One,sans-serif;
 }
+
 body{
-  margin: 0%;
-  padding: 0%;
+  margin: var(--margin-default);
+  padding: var(--padding-default);
 }
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
