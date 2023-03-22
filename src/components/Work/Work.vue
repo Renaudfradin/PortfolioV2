@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from 'vue'
-import JsonData from "../JsonData/DataProjet.json";
+import JsonData from "../Data/Projet.json";
 
 export default defineComponent({
   data(){

@@ -17,7 +17,7 @@ export default {
 
 <template>
   <metainfo>
-    <template v-slot:title="{ content }">{{ content ? `${content} | SITE_NAME` : `SITE_NAME` }}</template>
+    <template v-slot:title="{ content }">{{ content ? `${content} | Renaud Fradin` : `Renaud Fradin` }}</template>
   </metainfo>
   <NavBar />
   <div class="app">
