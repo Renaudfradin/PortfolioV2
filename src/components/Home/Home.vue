@@ -12,7 +12,7 @@ export default defineComponent({
     <h3>Je suis Renaud</h3>
     <h3>Développeur Front-end</h3>
     <div class="btnBlock">
-      <router-link to="/Contact" class="btnContact">Contacter - moi !</router-link>
+      <router-link to="/Contact" class="btnContact">Contactez - moi !</router-link>
       <router-link to="/Works" class="btnContact">Mes projets</router-link>
     </div>
   </div>    
