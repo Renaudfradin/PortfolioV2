@@ -12,11 +12,11 @@
 }
 
 .exprerience p a {
-  color: #08fdd8;
+  color: var(--primary-color);
 }
 
 .titleExprerience{
-  color: #08fdd8;
+  color: var(--primary-color);
 }
 
 .StackJob{
@@ -85,7 +85,7 @@
   }
 
   .titleExprerience{
-    color: #08fdd8;
+    color: var(--primary-color);
     text-align: center;
   }
 

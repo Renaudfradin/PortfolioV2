@@ -7,7 +7,7 @@
 }
 
 .acticeClass{
-  color: #08fdd8
+  color: var(--primary-color)
 }
 
 .nav1{
@@ -19,11 +19,11 @@
 }
 
 .nav:hover{
-  color:#08fdd8;
+  color:var(--primary-color);
 }
 
 .nav1:hover{
-  color:#08fdd8;
+  color:var(--primary-color);
 }
 
 .header{

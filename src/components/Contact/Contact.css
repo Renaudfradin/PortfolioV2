@@ -10,11 +10,11 @@
 }
 
 .contactTitle{
-  color: #08fdd8;
+  color: var(--primary-color);
 }
 
 .contactLink{
-  color: #08fdd8;
+  color: var(--primary-color);
 }
 
 .form{
@@ -25,7 +25,7 @@
 
 .formInput{
   background-color: #222222;
-  border: 1px solid #08fdd8;
+  border: 1px solid var(--primary-color);
 }
 
 @media screen and (max-width:425px){

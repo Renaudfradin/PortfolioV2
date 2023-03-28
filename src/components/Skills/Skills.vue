@@ -1,7 +1,7 @@
 <script>
 import { defineComponent } from 'vue'
-import Job from '../JsonData/DataJob.json'
-import Stack from '../JsonData/DataStack.json'
+import Job from '../Data/Job.json'
+import Stack from '../Data/Stack.json'
 
 export default defineComponent({
   setup() { },

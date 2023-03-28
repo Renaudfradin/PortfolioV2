@@ -9,3 +9,36 @@
   color: #fff;
   font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
 }
+
+.gif h2{
+  color: var(--primary-color);
+  font-size: clamp(100px, 25vw, 200px);
+  margin-top: var(--margin-default);
+  margin-bottom: var(--margin-default);
+}
+
+.gif p{
+  color: var(--secondary-color);
+  font-size: clamp(30px, 5vw, 50px);
+  font-weight: 400;
+  margin-top: var(--margin-default);
+  margin-bottom: var(--margin-default);
+}
+
+.gif a{
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 40px;
+}
+
+.gif a:hover {
+  background-color: var(--hover-color-btn);
+}
