@@ -2,27 +2,29 @@
   width: 45%;
 }
 
-.btnContact{
+.btnHome{
   border: 1px solid var(--primary-color);
   background-color: #2b2b2b;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 3px;
   padding: 9px 18px;
   text-transform: uppercase;
-  border-radius: 0;
   color: var(--primary-color);
   text-align: center;
   display: block;
   width: 30%;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.btnContact:hover{
-  background-color:var(--hover-color-btn);
-  color:var(--primary-color);
+.btnHome:hover{
+  background-color: var(--primary-color);
+  color: #2b2b2b;
 }
 
 .presentation h3 {
