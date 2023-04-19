@@ -7,20 +7,20 @@
       [
         {"stack1":"REACT"}
       ],
-      "imgProject":"imgwork/saoub.PNG",
-      "imgProject1":"../imgwork/saoub.PNG",
+      "imgProject":"imgwork/saoub.png",
+      "imgProject1":"../imgwork/saoub.png",
       "urlCodeProject":"https://github.com/Renaudfradin/SAOARS-UB",
       "urlSiteProject":"https://saoars-ub.netlify.app/"
     },
     {
-      "nameProject":"Theme Aurora",
+      "nameProject":"Aurora",
       "descriptionProject":"Thème Aurora pour BetterDiscord",
       "stackProject":
       [
         {"stack1":"CSS"}
       ],
-      "imgProject":"imgwork/themeAurora.png",
-      "imgProject1":"../imgwork/themeAurora.png",
+      "imgProject":"imgwork/Aurora.png",
+      "imgProject1":"../imgwork/Aurora.png",
       "urlCodeProject":"https://github.com/Renaudfradin/Theme-Aurora",
       "urlSiteProject":"https://github.com/Renaudfradin/Aurora/archive/refs/tags/1.3.zip"
     },
