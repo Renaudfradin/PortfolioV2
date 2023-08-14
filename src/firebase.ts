@@ -4,13 +4,13 @@ import { getFirestore } from "@firebase/firestore";
 import { getStorage } from "@firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCBYgS9EwKZnxWKAOc8uQWFsdunESlFvvw",
-    authDomain: "portfoliov3-39e94.firebaseapp.com",
-    projectId: "portfoliov3-39e94",
-    storageBucket: "portfoliov3-39e94.appspot.com",
-    messagingSenderId: "758214030598",
-    appId: "1:758214030598:web:8600aa96a2b85726bd1a87",
-    measurementId: "G-11HSXLZ0R8"
+    apiKey: process.env.API_KEY ,
+    authDomain: process.env.AUTH_DOMAIN,
+    projectId: process.env.PROJECT_ID,
+    storageBucket: process.env.STORAGE_BUCKET,
+    messagingSenderId: process.env.messagingSenderId,
+    appId: process.env.APP_ID,
+    measurementId: process.env.measurementId,
 };
 
 const app = initializeApp(firebaseConfig);

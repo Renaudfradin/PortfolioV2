@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "description": "",
+  "name": "portfoliov3",
+  "description": "portfolio v3",
   "version": "3.0.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "firebase": "^10.1.0",
     "next": "13.4.1",
     "react": "18.2.0",
