@@ -2,14 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/about.module.css";
 
-export default function About() {
+export default function about() {
   return (
     <>
       <Head>
-        <title>About page</title>
+        <title>About</title>
         <meta
           name="Portfolio Renaud Fradin"
-          content="Portfolio Renaud Fradin Develloper fulstack"
+          content="Portfolio Renaud Fradin Développeur Fullstack"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -17,7 +17,8 @@ export default function About() {
       <div>
         <p>About page</p>
         <h2>Présentation</h2>
-        <p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        {/* <p>
           Je suis un étudiant de 23 ans.
           Je suis actuellement en Mastère CTO & Tech Lead a l'école EEMI.
           J'ai obtenu un Bachelor développeur web à Hetic en septembre 2022.
@@ -26,7 +27,19 @@ export default function About() {
           J'ai obtenu mon baccalauréat STI2D (sciences & technologies de l'industrie et du développement durable) en juin 2018.
           Pendant mon temps libre je travaille sur des projet personelle , je fait du sport (c’est une passion et une motivation) , j'étudie aussi l’histoire et je joue aussi aux jeux vidéo (fps , rpg, mmo).
           Je milite activement pour la cause animale.
-        </p>
+        </p> */}
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ducimus eaque recusandae atque architecto id placeat, reprehenderit cupiditate commodi facilis adipisci est illo at vitae quis officiis odit eos incidunt.</p>
         <Image 
           src="../../assets/loup.svg"
           width={300}
