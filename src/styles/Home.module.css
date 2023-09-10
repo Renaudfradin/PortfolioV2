@@ -1,3 +1,7 @@
 .container{
   color: aqua;
 }
+
+.container_body{
+  display: flex;
+}

@@ -17,16 +17,18 @@ export default function Home() {
       </Head>
       <main>
         <div className={styles.container}>
-          <h2>Je suis Renaud Développeur Fullstack</h2>
+          <div className={styles.container_body}>
+            <h2>Je suis Renaud Développeur Fullstack</h2>
+            <Image 
+              src="../../assets/loup.svg"
+              width={300}
+              height={300}
+              alt="img"
+            ></Image>
+          </div>
           <Link href="/works">
             Mes projets
           </Link>
-          <Image 
-            src="../../assets/loup.svg"
-            width={300}
-            height={300}
-            alt="img"
-          ></Image>
         </div>
       </main>
     </>
