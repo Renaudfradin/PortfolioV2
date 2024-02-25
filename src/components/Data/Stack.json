@@ -2,23 +2,23 @@
   "Stack":[
     {
       "id":1,
+      "titleStack":"Laravel",
+      "imgStack":"imgSkill/laravel.svg"
+    },
+    {
+      "id":2,
       "titleStack":"React",
       "imgStack":"imgSkill/react.svg"
     },
     {
-      "id":2,
+      "id":3,
       "titleStack":"Vue.JS",
       "imgStack":"imgSkill/vuejs.svg"
     },
     {
-      "id":3,
+      "id":4,
       "titleStack":"Node.JS",
       "imgStack":"imgSkill/node.svg"
-    },
-    {
-      "id":4,
-      "titleStack":"JS",
-      "imgStack":"imgSkill/js.svg"
     },
     {
       "id":5,

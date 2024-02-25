@@ -1,14 +1,21 @@
 {
   "Job":[
-     {
-      "titleJob":"Developpeur Back-end",
+    {
+      "titleJob":"Developpeur Full-Stack",
+      "descriptionJob":"Développement du CMS de l'entreprise en Laravel et Nuxt.js",
+      "dateJob":"Septembre 2023",
+      "entrepriseJob":"ClubFunding Group",
+      "typeJob":"Alternance"
+    },
+    {
+      "titleJob":"Developpeur Back-End",
       "descriptionJob":"Développement et maintenance de micro serveur en node/express",
       "dateJob":"Février 2023 - Avril 2023",
       "entrepriseJob":"PAPPERS",
       "typeJob":"Alternance"
     },
     {
-      "titleJob":"Developpeur Fullstack",
+      "titleJob":"Developpeur Full-Stack",
       "descriptionJob":"Développement d'aplications React",
       "dateJob":"Septembre 2022 - Novembre 2022",
       "entrepriseJob":"SCRIBEO",
