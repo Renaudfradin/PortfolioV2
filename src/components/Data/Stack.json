@@ -11,24 +11,14 @@
       "imgStack":"imgSkill/react.svg"
     },
     {
-      "id":3,
-      "titleStack":"Vue.JS",
-      "imgStack":"imgSkill/vuejs.svg"
-    },
-    {
       "id":4,
-      "titleStack":"Node.JS",
+      "titleStack":"Node/Express.JS",
       "imgStack":"imgSkill/node.svg"
     },
     {
       "id":5,
       "titleStack":"Wordpress",
       "imgStack":"imgSkill/wp.svg"
-    },
-    {
-      "id":6,
-      "titleStack":"Webflow",
-      "imgStack":"imgSkill/webflow.svg"
     }
   ]
 }
