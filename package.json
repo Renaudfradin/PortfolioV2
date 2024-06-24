@@ -1,6 +1,6 @@
 {
-  "name": "folio",
-  "version": "0.1.0",
+  "name": "foliov4",
+  "version": "4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
+    "i18next": "^23.11.5",
     "react": "^18",
     "react-dom": "^18",
     "next": "14.2.2"
