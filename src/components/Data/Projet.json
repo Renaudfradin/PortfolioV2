@@ -1,11 +1,23 @@
 {
   "project":[
     {
+      "nameProject":"API-SAOARS",
+      "descriptionProject":"API qui regroupe les personnages et d'autres du jeux mobile Sword Art Online Alicization Rising Steel / Unleash Blading",
+      "stackProject":
+      [
+        {"stack1":"Laravel"}
+      ],
+      "imgProject":"imgwork/apisaoars.png",
+      "imgProject1":"../imgwork/apisaoars.png",
+      "urlCodeProject":"https://github.com/Renaudfradin/API-SAOARS",
+      "urlSiteProject":"https://api-saoars.up.railway.app/admin"
+    },
+    {
       "nameProject":"SAOARS-UB",
       "descriptionProject":"Site qui regroupe les personnages et d'autres informations du jeux mobile Sword Art Online Alicization Rising Steel / Unleash Blading",
       "stackProject":
       [
-        {"stack1":"REACT"}
+        {"stack1":"React"}
       ],
       "imgProject":"imgwork/saoub.png",
       "imgProject1":"../imgwork/saoub.png",
@@ -13,79 +25,39 @@
       "urlSiteProject":"https://saoars-ub.netlify.app/"
     },
     {
-      "nameProject":"Aurora",
-      "descriptionProject":"Thème Aurora pour BetterDiscord",
+      "nameProject":"AtthStudio",
+      "descriptionProject":"Portfolio de Annie Tran",
       "stackProject":
       [
-        {"stack1":"CSS"}
+        {"stack1":"Next"}
       ],
-      "imgProject":"imgwork/Aurora.png",
-      "imgProject1":"../imgwork/Aurora.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/Theme-Aurora",
-      "urlSiteProject":"https://github.com/Renaudfradin/Aurora/archive/refs/tags/1.3.zip"
+      "imgProject":"imgwork/atthstudio.png",
+      "imgProject1":"../imgwork/atthstudio.png",
+      "urlCodeProject":"https://github.com/Renaudfradin/AtthStudio",
+      "urlSiteProject":"https://atth-studio.vercel.app/"
     },
     {
-      "nameProject":"API-SAOARS",
-      "descriptionProject":"API qui regroupe les personnages et d'autres du jeux mobile Sword Art Online Alicization Rising Steel / Unleash Blading",
+      "nameProject":"API-AtthStudio",
+      "descriptionProject":"API pour AtthStudio",
       "stackProject":
       [
-        {"stack1":"NODE"},
-        {"stack2":"EXPRESS"}
+        {"stack1":"Laravel"}
       ],
-      "imgProject":"imgwork/apisaoars.png",
-      "imgProject1":"../imgwork/apisaoars.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/API-SAOARS",
-      "urlSiteProject":"https://api-saoars.vercel.app/doc/"
-    },
-    { 
-      "nameProject":"BonCoinPauvre2",
-      "descriptionProject":"Si toi aussi tu refuses de dépenser des dizaines voir des centaines d'euros pour des produits d'occasion, PAS DE PANIQUE ! Il y a autant de rats que d'humains sur Terre , et tu fais juste partie de la classe des mammiféres vertébrés !",
-      "stackProject":
-      [
-        {"stack1":"SYMFONY"}
-      ],
-      "imgProject":"imgwork/LeboncoinDuPauvre.png",
-      "imgProject1":"../imgwork/leboncoinDuPauvre.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/BonCoinPauvre2",
-      "urlSiteProject":null
+      "imgProject":"imgwork/apiatth.png",
+      "imgProject1":"../imgwork/apiatth.png",
+      "urlCodeProject":"https://github.com/Renaudfradin/API-AtthStudio"
     },
     {
       "nameProject":"PORTFOLIO V2",
-      "descriptionProject":"Portfolio qui regroupe mes compétences et mes projects.",
+      "descriptionProject":"Portfolio.",
       "stackProject":
       [
-        {"stack1":"VUE"}
+        {"stack1":"Vue"}
       ],
       "imgProject":"imgwork/portfoliov2.png",
       "imgProject1":"../imgwork/portfoliov2.png",
       "urlCodeProject":"https://github.com/Renaudfradin/PortfolioV2",
       "urlSiteProject":"https://portfolio-renaud-fradin.netlify.app"
-    },
-    {
-      "nameProject":"NUMBER 10",
-      "descriptionProject":"Projet de cours.",
-      "stackProject":
-      [
-        {"stack1":"WORDPRESS"}
-      ],
-      "imgProject":"imgwork/number10.png",
-      "imgProject1":"../imgwork/number10.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/numbers10",
-      "urlSiteProject":null
-    },
-    {
-      "nameProject":"GSB-PHP",
-      "descriptionProject":"Application de gestion de frais réalisé pendant mon bts SIO.",
-      "stackProject":
-      [
-        {"stack1":"BULMA"},
-        {"stack2":"PHP"},
-        {"stack3":"SQL"}
-      ],
-      "imgProject":"imgwork/gsb.png",
-      "imgProject1":"../imgwork/gsb.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/GSB-PHP",
-      "urlSiteProject":null
     }
   ]
 }

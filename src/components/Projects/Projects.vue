@@ -28,9 +28,6 @@ export default defineComponent({
 </script>
 <template>
   <div>
-    <div class="searchwork">
-      <input type="text" v-model="searchwork" class="inputSearchwork" placeholder="recherche un projet">
-    </div>
     <div class="worksWrapper" v-if="jsonResultWork == null ? works = jsonWorks.project : works = jsonResultWork">
       <div v-for="(projet, index) in works" v-bind:key="index" class="workCard">
         <router-link :to="{ name: 'Work', params: { name:projet.nameProject }}"><img :src="projet.imgProject" class="workImg" ></router-link>  
@@ -66,4 +63,4 @@ export default defineComponent({
   </div>
 </template>
 
-<style src="./Works.css" scoped> </style>
+<style src="./Projects.css" scoped> </style>
