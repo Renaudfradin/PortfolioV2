@@ -17,10 +17,10 @@ export default defineComponent({
 <template>
   <div class="SkillsStackJob">
     <div class="exprerience">
-      <h2 class="titleExprerience">Skills & Expérience</h2>
-      <p>Je suis intéressé par le développement back-end et l'environnement de Laravel.</p>
-      <p>J'utilise le plus souvent les framework Laravel, React.js et Node.js.</p>
-      <p>Visitez mon profil <a href="https://www.linkedin.com/in/Renaudfradin/">Linkedin</a> pour plus de détails et mon <a href="https://github.com/Renaudfradin">Github</a> pour voir mes projets.</p>
+      <h2 class="titleExprerience">Compétences & Parcours</h2>
+      <p>Développeur passionné, je me spécialise dans le back-end et l’écosystème Laravel, tout en gardant un œil sur les dernières tendances du web.</p>
+      <p>J’aime créer des solutions performantes et sur-mesure avec Laravel, React.js et Node.js, en alliant technique et créativité.</p>
+      <p>Curieux d’en découvrir davantage ? Retrouvez mon parcours complet sur <a href="https://www.linkedin.com/in/Renaudfradin/">LinkedIn</a> ou explorez mes projets sur <a href="https://github.com/Renaudfradin">GitHub</a>.</p>
       <div class="stackWrap">
         <div v-for="(stack , index) in Stack.Stack" v-bind:key="index">
           <img :src="stack.imgStack" alt="" srcset="" class="imgStack">
@@ -34,7 +34,6 @@ export default defineComponent({
           <h5 class="tileJob">{{job.titleJob}}</h5>
           <p>{{job.entrepriseJob}}</p>
           <p>{{job.dateJob}}</p>
-          <p class="descriptionJob">{{job.descriptionJob}}</p>
           <p>{{job.typeJob}}</p>
         </div>
       </div>

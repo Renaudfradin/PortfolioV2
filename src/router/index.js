@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@views/home.vue'
 import About from '@views/about.vue'
 import Skills from '@views/skills.vue'
-import Works from '@views/works.vue'
+import Projects from '@views/projects.vue'
 import Work from '@components/Work/Work.vue'
 import Contact from '@views/contact.vue'
 import NotFound from '@views/404.vue'
@@ -15,7 +15,7 @@ const router = createRouter({
       name: 'home',
       component: Home,
       meta:{
-        title: 'Home'
+        title: 'Renaud Fradin'
       }
     },
     {
@@ -23,36 +23,36 @@ const router = createRouter({
       name: 'about',
       component: About,
       meta:{
-        title: 'About'
+        title: 'Renaud Fradin - About'
       }
     },
     {
-      path: '/Skills',
+      path: '/skills',
       name: 'Skills',
       component: Skills,
       meta:{
-        title: 'Skills'
+        title: 'Renaud Fradin - Skills'
       }
     },
     {
-      path: '/Works',
-      name: 'Works',
-      component: Works,
+      path: '/projects',
+      name: 'Projects',
+      component: Projects,
       meta:{
-        title: 'Works'
+        title: 'Renaud Fradin - Projects'
       }
     },
     {
-      path: '/Work/:name',
+      path: '/work/:name',
       name: 'Work',
       component: Work,
     },
     {
-      path: '/Contact',
-      name: 'Contact',
+      path: '/contact',
+      name: 'contact',
       component: Contact,
       meta:{
-        title: 'Contact'
+        title: 'Renaud Fradin - Contact'
       }
     },
     {

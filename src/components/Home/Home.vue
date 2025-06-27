@@ -12,8 +12,8 @@ export default defineComponent({
     <h3>Je suis Renaud</h3>
     <h3>Développeur Full-stack</h3>
     <div class="btnBlock">
-      <router-link to="/Works" class="btnHome">Mes projets</router-link>
-      <router-link to="/Contact" class="btnHome">Contactez - moi !</router-link>
+      <router-link to="/works" class="btnHome">Mes projets</router-link>
+      <router-link to="/contact" class="btnHome">Contactez - moi !</router-link>
     </div>
   </div>    
 </template>

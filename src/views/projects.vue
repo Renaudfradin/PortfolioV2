@@ -1,18 +1,16 @@
 <script>
 import { defineComponent } from "vue"
-import Works from '@components/Works/Works.vue'
+import Projects from '@/components/Projects/Projects.vue'
 
 export default defineComponent({
   components:{
-    Works
+    Projects
   }
 })
 </script>
 
 <template>
   <div>
-    <Works />
+    <Projects />
   </div>
 </template>
-
-<style> </style>

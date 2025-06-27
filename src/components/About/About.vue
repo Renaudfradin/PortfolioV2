@@ -13,15 +13,11 @@ export default defineComponent({
 <template>
   <div class="presentationCard">
     <h3 class="presentationtitle">Présentation</h3>
-    <p>Je suis un étudiant de 24 ans.</p>
-    <p>Je suis actuellement en Mastère CTO & Tech Lead a l'école EEMI.</p>
-    <p>J'ai obtenu un Bachelor développeur web à Hetic en septembre 2022.</p>
-    <p>J'ai obtenu un BTS SIO (Service Informatique aux Organisations) SLAM (Solutions Logicielles et Applications Métiers) en juin 2020.</p>
-    <p>J'ai obtenu un Titre professionnel Développeur web et web mobile à L'AFPA en juin 2019.</p>
-    <p>J'ai obtenu mon baccalauréat STI2D (sciences & technologies de l'industrie et du développement durable) en juin 2018.</p>
-    <p>Pendant mon temps libre je travaille sur des projet personelle , je fait du sport (c’est une passion et une motivation) , j'étudie aussi l’histoire et je joue aussi aux jeux vidéo.</p>
-    <p>Je milite activement pour la cause animale.</p>
-    <a href="cv/cv_renaud.pdf" download="CV_Renaud.pdf" class="btnCV">voir mon cv</a>
+    <p>Développeur web passionné de 25 ans, je suis actuellement en CDI en tant que Full-Stack Developer.</p>
+    <p>Diplômé d’un Mastère CTO & Tech Lead à l’école EEMI, j’ai également obtenu un Bachelor Développeur Web à HETIC, un BTS SIO SLAM, ainsi qu’un Titre professionnel Développeur Web & Web Mobile à l’AFPA.</p>
+    <p>J’aime concevoir des solutions innovantes, apprendre en continu et relever de nouveaux défis techniques. Mon parcours m’a permis d’acquérir une solide expérience sur des projets variés, du back-end au front-end.</p>
+    <p>En dehors du code, je me passionne pour le sport, l’histoire, les jeux vidéo et je m’investis activement pour la cause animale.</p>
+    <a href="cv/cv_renaud.pdf" download="CV_Renaud.pdf" class="btnCV">Voir mon CV</a>
   </div>
 </template>
 

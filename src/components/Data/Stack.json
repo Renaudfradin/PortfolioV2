@@ -7,18 +7,23 @@
     },
     {
       "id":2,
-      "titleStack":"React",
-      "imgStack":"imgSkill/react.svg"
+      "titleStack":"Next",
+      "imgStack":"imgSkill/nextjs.svg"
+    },
+    {
+      "id":3,
+      "titleStack":"Nuxt",
+      "imgStack":"imgSkill/nuxt.png"
     },
     {
       "id":4,
-      "titleStack":"Node/Express.JS",
-      "imgStack":"imgSkill/node.svg"
+      "titleStack":"Docker",
+      "imgStack":"imgSkill/docker.svg"
     },
     {
       "id":5,
-      "titleStack":"Wordpress",
-      "imgStack":"imgSkill/wp.svg"
+      "titleStack":"Node/Express.JS",
+      "imgStack":"imgSkill/node.svg"
     }
   ]
 }

@@ -2,42 +2,42 @@
   "Job":[
     {
       "titleJob":"Developpeur Full-Stack",
-      "descriptionJob":"Développement du CMS de l'entreprise en Laravel et Nuxt.js",
-      "dateJob":"Septembre 2023",
+      "dateJob":"Novembre 2024 - Juin 2025",
+      "entrepriseJob":"ClubFunding Group",
+      "typeJob":"CDI"
+    },
+    {
+      "titleJob":"Developpeur Full-Stack",
+      "dateJob":"Août 2023 - Septembre 2024",
       "entrepriseJob":"ClubFunding Group",
       "typeJob":"Alternance"
     },
     {
       "titleJob":"Developpeur Back-End",
-      "descriptionJob":"Développement et maintenance de micro serveur en node/express",
       "dateJob":"Février 2023 - Avril 2023",
       "entrepriseJob":"PAPPERS",
       "typeJob":"Alternance"
     },
     {
       "titleJob":"Developpeur Full-Stack",
-      "descriptionJob":"Développement d'aplications React",
       "dateJob":"Septembre 2022 - Novembre 2022",
       "entrepriseJob":"SCRIBEO",
       "typeJob":"Alternance"
     },
     {
       "titleJob":"Developpeur Back-End",
-      "descriptionJob":"Développement de plugins et de théme wordpress",
       "dateJob":"Decembre 2020 - Avril 2022",
       "entrepriseJob":"ALL IN APPLI",
       "typeJob":"Alternance"
     },
     {
       "titleJob":"Developpeur Front-End",
-      "descriptionJob":"Amélioration du front",
       "dateJob":"Novembre 2019 - Janvier 2020",
       "entrepriseJob":"BEARCO",
       "typeJob":"Stage"
     },
     {
       "titleJob":"Developpeur Front-End",
-      "descriptionJob":"Création du site web",
       "dateJob":"Avril 2019 - Juin 2019",
       "entrepriseJob":"Essid Hakim VTC",
       "typeJob":"Stage"
