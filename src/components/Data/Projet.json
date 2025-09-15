@@ -45,11 +45,24 @@
       ],
       "imgProject":"imgwork/apiatth.png",
       "imgProject1":"../imgwork/apiatth.png",
-      "urlCodeProject":"https://github.com/Renaudfradin/API-AtthStudio"
+      "urlCodeProject":"https://github.com/Renaudfradin/API-AtthStudio",
+      "urlSiteProject":"https://api-atthstudio.up.railway.app/admin"
+    },
+    {
+      "nameProject":"Earth map game",
+      "descriptionProject":"jeu de type map game",
+      "stackProject":
+      [
+        {"stack1":"React"}
+      ],
+      "imgProject":"imgwork/earthMapGame.png",
+      "imgProject1":"../imgwork/earthMapGame.png",
+      "urlCodeProject":"https://github.com/Renaudfradin/earthMapGame",
+      "urlSiteProject":"https://earth-map-game.vercel.app/"
     },
     {
       "nameProject":"PORTFOLIO V2",
-      "descriptionProject":"Portfolio.",
+      "descriptionProject":"Portfolio V2",
       "stackProject":
       [
         {"stack1":"Vue"}

@@ -48,8 +48,8 @@ export default defineComponent({
             </div>
             <p class="workTime">{{projet.timeProject}}</p>
             <div class="workBlock">
-              <a v-if="projet.urlCodeProject != null" :href="projet.urlCodeProject" class="btnStyle" target="_blank">code</a>
-              <a v-if="projet.urlSiteProject != null" :href="projet.urlSiteProject" class="btnStyle" target="_blank">url</a>
+              <a v-if="projet.urlCodeProject != null" :href="projet.urlCodeProject" class="btnStyle" target="_blank">GitHub</a>
+              <a v-if="projet.urlSiteProject != null" :href="projet.urlSiteProject" class="btnStyle" target="_blank">Demo</a>
             </div>
           </div>
         </div>
