@@ -1,0 +1,39 @@
+:root{
+  --primary-color: #08fdd8;
+  --secondary-color: #fff;
+  --margin-default: 0%;
+  --padding-default: 0%;
+  --hover-color-btn: #00fdd72e;
+}
+
+html{
+  background-color: #222222;
+  height: 100vh;
+  font-family: Secular One,sans-serif;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1c181f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #08e5c4; 
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+}

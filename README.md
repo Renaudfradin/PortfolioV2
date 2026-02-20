@@ -8,7 +8,7 @@
   </a>
 </h1>
 
-![folio](src/assets/portfoliov2.png)
+![folio](public/portfoliov2.png)
 
 ## 🛠 Installation & Set Up
 
@@ -22,4 +22,10 @@ npm install
 
 ```sh
 npm run dev
+```
+
+3. Build for production
+
+```sh
+npm run build
 ```

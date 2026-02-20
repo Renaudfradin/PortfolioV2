@@ -1,0 +1,57 @@
+.presentationCard{
+  width: 45%;
+  color: #fff;
+  font-size: 20px;
+  font-family: Secular One, sans-serif;
+}
+
+.presentationtitle{
+  color: var(--primary-color);
+}
+
+.btnCV{
+  border: 1px solid var(--primary-color);
+  background-color: #2b2b2b;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-align: center;
+  margin: auto;
+  display: block;
+  width: 30%;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCV:hover{
+  background-color: var(--primary-color);
+  color: #2b2b2b;
+}
+
+
+@media screen and (max-width:768px){
+  .presentationCard{
+    width: 90%;
+    color: #fff;
+    font-size: 20px;
+    font-family: Secular One, sans-serif;
+  }
+
+  .presentationtitle{
+    color: var(--primary-color);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:426px){
+  .btnCV{
+    width: 50%;
+  }
+}
