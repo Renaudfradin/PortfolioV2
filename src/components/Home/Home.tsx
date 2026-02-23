@@ -8,7 +8,7 @@ export default function HomeComponent() {
       <h3>Je suis Renaud</h3>
       <h3>Développeur Full-stack</h3>
       <div className={styles.btnBlock}>
-        <Link href="/projects" className={styles.btnHome}>Mes projets</Link>
+        <Link href="/project" className={styles.btnHome}>Mes projets</Link>
         <Link href="/contact" className={styles.btnHome}>Contactez - moi !</Link>
       </div>
     </div>

@@ -1,32 +1,5 @@
-.nav{
-  display: block;
-  font-size: 25px;
-  text-align: center;
-  margin: 30px 0px 30px 0px;
-  color: white;
-}
-
-.activeClass{
-  color: var(--primary-color);
-}
-
-.nav1{
-  display: block;
-  font-size: 25px;
-  text-align: center;
-  margin: 0px 0px 0px 0px;
-  color: white;
-}
-
-.nav:hover{
-  color:var(--primary-color);
-}
-
-.nav1:hover{
-  color:var(--primary-color);
-}
-
-.header{
+/* ===== Desktop sidebar ===== */
+.header {
   background: #181818;
   width: 70px;
   height: 100vh;
@@ -37,57 +10,139 @@
   z-index: 100;
 }
 
-@media screen and (max-width:770px){
-  .nav3{
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  margin: 30px 0;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.nav:hover {
+  color: var(--primary-color);
+}
+
+.activeClass {
+  color: var(--primary-color);
+}
+
+.nav1 {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.nav1:hover {
+  color: var(--primary-color);
+}
+
+.menu,
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Burger hidden on desktop */
+.burger {
+  display: none;
+}
+
+/* ===== Mobile ===== */
+@media screen and (max-width: 770px) {
+  .header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+  }
+
+  .topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .nav3 {
     display: none;
   }
 
-  .header{
-    background: #181818;
-    width: 100%;
-    height: auto;
+  .nav1 {
+    font-size: 20px;
+  }
+
+  /* Burger button */
+  .burger {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    z-index: 101;
+  }
+
+  .burger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+  }
+
+  /* Burger -> X animation */
+  .burgerOpen span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .burgerOpen span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burgerOpen span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  /* Menu hidden by default */
+  .menu,
+  .socials {
+    display: flex;
     flex-direction: row;
-    position: initial;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.35s ease;
+    padding: 0 20px;
   }
 
-  .header div{
-    margin: 0px 0px 0px 0px;
-    display: contents;
+  .menuOpen {
+    max-height: 200px;
+    padding: 10px 20px;
   }
 
-  .nav{
+  .nav {
     display: inline-block;
-    font-size: 25px;
-    text-align: start;
-    color: white;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 14px;
+    font-size: 22px;
   }
 
-  .nav1{
-    display: inline-block;
-    font-size: 25px;
-    text-align: start;
-    color: white;
-    margin: 0px 10px 0px 10px;
-  }
-}
-
-@media screen and (max-width:320px){
-  .nav{
-    display: inline-block;
-    font-size: 25px;
-    text-align: start;
-    color: white;
-    margin: 10px 5px 10px 5px;
-  }
-
-  .nav1{
-    display: inline-block;
-    font-size: 25px;
-    text-align: start;
-    color: white;
-    margin: 0px 5px 0px 5px;
+  .socials .nav {
+    margin: 8px 14px;
   }
 }

@@ -1,10 +1,10 @@
 import HomeComponent from "@/components/Home/Home";
 import Wolf from "@/components/Wolf/Wolf";
-import styles from "./page.module.css";
+import "./page.css";
 
 export default function HomePage() {
   return (
-    <div className={styles.parentHome}>
+    <div className="parentHome">
       <HomeComponent />
       <Wolf />
     </div>
