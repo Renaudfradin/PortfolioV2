@@ -4,6 +4,8 @@ import { callApi } from "@/lib/api";
 import { Project } from "@/types";
 import "../project.css";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: {
