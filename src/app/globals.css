@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #08fdd8;
+  --secondary-color: #fff;
+  --text-color: #fff;
+  --text-muted: #b0b0b0;
+  --text-description: #d1d5db;
+  --margin-default: 0%;
+  --padding-default: 0%;
+
+  --bg-main: #222222;
+  --bg-dark: #181818;
+  --bg-card: #2b2b2b;
+  --bg-card-alt: #2a2a2a;
+  --bg-notfound: #0a0a0a;
+  --bg-border: #282828;
+
+  --hover-color-btn: #00fdd72e;
+
+  --glitch-magenta: #ff00ff;
+  --glitch-cyan: #00ffff;
+
+  --font-main: "Secular One", sans-serif;
+  --font-notfound: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  --transition-btn: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --border-radius-default: 5px;
+}
+
+html {
+  background-color: var(--bg-main);
+  height: 100vh;
+  font-family: var(--font-main);
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1c181f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}

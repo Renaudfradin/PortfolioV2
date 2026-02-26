@@ -1,0 +1,45 @@
+.contactCard {
+  color: var(--text-color);
+  display: flex;
+  height: 100vh;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.contactTitle {
+  color: var(--primary-color);
+}
+
+.contactLink {
+  color: var(--primary-color);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInput {
+  background-color: var(--bg-main);
+  border: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 425px) {
+  .contactCard {
+    height: auto;
+    width: 90%;
+    justify-content: flex-start;
+    padding-top: 20%;
+  }
+
+  .contactTitle {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

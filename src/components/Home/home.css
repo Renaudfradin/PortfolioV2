@@ -1,0 +1,81 @@
+.presentation {
+  width: 45%;
+}
+
+.btnHome {
+  border: 1px solid var(--primary-color);
+  background-color: var(--bg-card);
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-align: center;
+  width: 35%;
+  text-decoration: none;
+  border-radius: var(--border-radius-default);
+  cursor: pointer;
+  transition: var(--transition-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnHome:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-card);
+}
+
+.presentation h3 {
+  color: var(--primary-color);
+  font-size: 70px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.btnBlock {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    width: 90%;
+    text-align: center;
+    padding-top: 20%;
+  }
+
+  .btnContact {
+    width: 60%;
+    margin: auto;
+  }
+
+  .presentation h3 {
+    color: var(--primary-color);
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .btnHome {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .btnBlock {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btnHome {
+    width: 100%;
+    margin: auto;
+  }
+}

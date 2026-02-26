@@ -1,0 +1,51 @@
+.presentationCard {
+  width: 45%;
+  color: var(--text-color);
+  font-size: 20px;
+}
+
+.presentationtitle {
+  color: var(--primary-color);
+}
+
+.btnCV {
+  border: 1px solid var(--primary-color);
+  background-color: var(--bg-card);
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  text-decoration: none;
+  border-radius: var(--border-radius-default);
+  cursor: pointer;
+  transition: var(--transition-btn);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCV:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-card);
+}
+
+@media screen and (max-width: 768px) {
+  .presentationCard {
+    width: 90%;
+  }
+
+  .presentationtitle {
+    color: var(--primary-color);
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .btnCV {
+    width: 50%;
+  }
+}
