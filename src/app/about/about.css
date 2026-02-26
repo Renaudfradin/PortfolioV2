@@ -1,0 +1,17 @@
+.presentations {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .presentations {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    flex-direction: column;
+    padding-top: 20%;
+  }
+}
