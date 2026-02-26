@@ -1,12 +1,12 @@
-.SkillsStackJob{
+.SkillsStackJob {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 100vh;
-  color: #fff;
+  color: var(--text-color);
 }
 
-.exprerience{
+.exprerience {
   width: 40%;
   padding-right: 40px;
 }
@@ -15,17 +15,17 @@
   color: var(--primary-color);
 }
 
-.titleExprerience{
+.titleExprerience {
   color: var(--primary-color);
 }
 
-.StackJob{
+.StackJob {
   display: flex;
   flex-direction: column;
   width: 45%;
 }
 
-.stackWrap{
+.stackWrap {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-column-gap: 20px;
@@ -38,14 +38,14 @@
   display: flex;
 }
 
-.titleStack{
+.titleStack {
   padding-left: 10px;
 }
-.imgStack{
+.imgStack {
   height: 50px;
 }
 
-.jobWrapper{
+.jobWrapper {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-column-gap: 20px;
@@ -54,77 +54,77 @@
   width: 90%;
 }
 
-.jobWrapper div{
-  background-color: #2a2a2a;
+.jobWrapper div {
+  background-color: var(--bg-card-alt);
   padding: 30px;
 }
 
-.tileJob{
+.tileJob {
   margin-top: 0%;
   font-size: 20px;
 }
 
-.jobWrapper div p{
+.jobWrapper div p {
   margin: 0%;
   padding-bottom: 5px;
 }
 
-.descriptionJob{
+.descriptionJob {
   padding-top: 10px;
 }
 
-@media screen and (max-width:770px) {
-  .SkillsStackJob{
+@media screen and (max-width: 770px) {
+  .SkillsStackJob {
     height: auto;
     flex-direction: column;
   }
 
-  .exprerience{
+  .exprerience {
     width: 90%;
     padding-right: 0px;
+    padding-top: 20%;
   }
 
-  .titleExprerience{
-    color: var(--primary-color);
+  .titleExprerience {
     text-align: center;
   }
 
-  .StackJob{
+  .StackJob {
     width: 90%;
   }
 
-  .stackWrap{
+  .stackWrap {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     width: 100%;
   }
 
-  .jobWrapper{
+  .jobWrapper {
     grid-template-columns: repeat(1, 95%);
     width: 95%;
     justify-content: center;
   }
 }
 
-@media screen and (max-width:1200px) and (min-width:771px) {
-  .SkillsStackJob{
+@media screen and (max-width: 1200px) and (min-width: 771px) {
+  .SkillsStackJob {
     height: auto;
   }
 
-  .jobWrapper{
+  .jobWrapper {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     padding-top: 10px;
   }
 
-  .jobWrapper div{
-    background-color: #2a2a2a;
+  .jobWrapper div {
+    background-color: var(--bg-card-alt);
     padding: 20px;
   }
 }
 
-@media screen and (max-width:426px) {
-  .jobWrapper{
+@media screen and (max-width: 426px) {
+  .jobWrapper {
     grid-template-columns: repeat(1, 95%);
     width: 95%;
     justify-content: center;

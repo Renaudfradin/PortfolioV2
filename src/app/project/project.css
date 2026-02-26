@@ -12,7 +12,7 @@
   font-size: 2.5rem;
   font-weight: 900;
   text-transform: uppercase;
-  color: #2dd4a8;
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 40px;
   letter-spacing: 2px;
@@ -35,7 +35,7 @@
 
 .project-description {
   text-align: center;
-  color: #d1d5db;
+  color: var(--text-description);
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 24px;
@@ -44,7 +44,7 @@
 
 .project-stack {
   text-align: center;
-  color: #ffffff;
+  color: var(--text-color);
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 32px;
@@ -52,7 +52,7 @@
 
 .project-buttons {
   display: flex;
-  gap: 0;
+  gap: 30px;
   justify-content: center;
   width: 100%;
   max-width: 500px;
@@ -64,19 +64,22 @@
   align-items: center;
   justify-content: center;
   padding: 12px 32px;
-  border: 1px solid #2dd4a8;
-  color: #2dd4a8;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: var(--border-radius-default);
   font-weight: 700;
   font-size: 0.9rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .project-btn:hover {
-  background-color: #2dd4a8;
-  color: #1a1a2e;
+  background-color: var(--primary-color);
+  color: var(--bg-dark);
 }
 
 @media (max-width: 600px) {
@@ -97,11 +100,14 @@
 .workCard {
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #282828;
-  color: #fff;
+  border: 1px solid var(--bg-border);
+  color: var(--text-color);
   padding: 10px;
-  font-family: 'Secular One', sans-serif;
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: var(--font-main);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
   overflow: hidden;
 }
 
@@ -132,7 +138,7 @@
   line-clamp: 4;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  color: #b0b0b0;
+  color: var(--text-muted);
   font-size: 0.9rem;
   line-height: 1.5;
 }
@@ -159,7 +165,7 @@
 
 .btnStyle {
   border: 1px solid var(--primary-color);
-  background-color: #2b2b2b;
+  background-color: var(--bg-card);
   color: var(--primary-color);
   text-align: center;
   font-size: 15px;
@@ -168,10 +174,9 @@
   padding: 6px 12px;
   text-transform: uppercase;
   width: 45%;
-  display: block;
-  border-radius: 5px;
+  border-radius: var(--border-radius-default);
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: var(--transition-btn);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -180,11 +185,11 @@
 
 .btnStyle:hover {
   background-color: var(--primary-color);
-  color: #2b2b2b;
+  color: var(--bg-card);
 }
 
 .nullResult {
-  color: #fff;
+  color: var(--text-color);
 }
 
 .searchwork {
@@ -196,9 +201,9 @@
   height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 5px;
+  border-radius: var(--border-radius-default);
   text-align: center;
-  background-color: #222222;
+  background-color: var(--bg-main);
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
 }
@@ -211,7 +216,7 @@
   outline: 1px solid var(--primary-color);
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width: 650px) {
   .worksWrapper {
     display: grid;
     grid-template-columns: repeat(1, 90%);
@@ -219,22 +224,15 @@
     grid-row-gap: 20px;
     place-content: center;
     padding-bottom: 30px;
+    padding-top: 20%;
   }
 
   .inputSearchwork {
     width: 80%;
-    height: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #222222;
-    border: 1px solid var(--primary-color);
   }
 }
 
-@media screen and (max-width:830px) and (min-width:651px) {
+@media screen and (max-width: 830px) and (min-width: 651px) {
   .worksWrapper {
     display: grid;
     grid-template-columns: repeat(2, 45%);
@@ -247,18 +245,10 @@
 
   .inputSearchwork {
     width: 80%;
-    height: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #222222;
-    border: 1px solid var(--primary-color);
   }
 }
 
-@media screen and (max-width:1281px) and (min-width:830px) {
+@media screen and (max-width: 1281px) and (min-width: 830px) {
   .worksWrapper {
     display: grid;
     grid-template-columns: repeat(3, 30%);
@@ -270,18 +260,10 @@
 
   .inputSearchwork {
     width: 50%;
-    height: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #222222;
-    border: 1px solid var(--primary-color);
   }
 }
 
-@media screen and (max-width:2440px) and (min-width:1282px) {
+@media screen and (max-width: 2440px) and (min-width: 1282px) {
   .worksWrapper {
     display: grid;
     grid-template-columns: repeat(4, 22%);
@@ -293,7 +275,7 @@
   }
 }
 
-@media screen and (min-width:2500px) {
+@media screen and (min-width: 2500px) {
   .worksWrapper {
     display: grid;
     grid-template-columns: repeat(4, 20%);

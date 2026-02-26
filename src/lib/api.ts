@@ -2,8 +2,8 @@ import {
   withRetry,
   measurePerformance,
   PERFORMANCE_CONFIG,
-} from '@/lib/performance';
-import { CallApiOptions } from '@/types';
+} from "@/lib/performance";
+import { CallApiOptions } from "@/types";
 
 // Fonction avec timeout
 async function fetchWithTimeout(
@@ -32,7 +32,7 @@ export async function callApi<T>(
   options: CallApiOptions = {},
 ): Promise<T> {
   const {
-    method = 'GET',
+    method = "GET",
     body,
     headers,
     timeout = PERFORMANCE_CONFIG.TIMEOUTS.DEFAULT,
@@ -53,11 +53,11 @@ export async function callApi<T>(
     const fetchOptions: RequestInit = {
       method,
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
         ...(headers || {}),
       },
       // Ajout du cache pour les requêtes GET
-      ...(method === 'GET' && {
+      ...(method === "GET" && {
         next: {
           revalidate: 300, // Cache pendant 5 minutes
           tags: [endpoint], // Tag pour invalidation sélective
@@ -66,9 +66,9 @@ export async function callApi<T>(
       ...rest,
     };
 
-    if (body !== undefined && method !== 'GET') {
+    if (body !== undefined && method !== "GET") {
       fetchOptions.body =
-        typeof body === 'string' ? body : JSON.stringify(body);
+        typeof body === "string" ? body : JSON.stringify(body);
     }
 
     const response = await fetchWithTimeout(url, fetchOptions, timeout);
@@ -78,8 +78,8 @@ export async function callApi<T>(
       throw new Error(`Erreur API (${response.status}): ${errorText}`);
     }
 
-    const contentType = response.headers.get('content-type');
-    if (contentType && contentType.includes('application/json')) {
+    const contentType = response.headers.get("content-type");
+    if (contentType && contentType.includes("application/json")) {
       return response.json();
     }
     return response.text() as unknown as T;

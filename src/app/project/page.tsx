@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { callApi } from "@/lib/api";
 import { Project } from "@/types";
-import './project.css';
+import "./project.css";
 
 export const metadata: Metadata = {
-  title: 'Projects',
+  title: "Projects",
   description:
-    'Projects Renaud Fradin - Développeur Full-Stack - Renaud Fradin',
+    "Projects Renaud Fradin - Développeur Full-Stack - Renaud Fradin",
   keywords: [
-    'Renaud Fradin',
-    'Développeur Full-Stack',
-    'Portfolio',
-    'Projects Renaud Fradin',
+    "Renaud Fradin",
+    "Développeur Full-Stack",
+    "Portfolio",
+    "Projects Renaud Fradin",
   ],
   icons: {
-    icon: '/logo.ico',
+    icon: "/logo.ico",
   },
 };
 
@@ -23,10 +23,12 @@ export default async function ProjectsPage() {
   let projects: Project[] = [];
 
   try {
-    const data = await callApi<Project[] | Record<string, unknown>>('/api/projects');
+    const data = await callApi<Project[] | Record<string, unknown>>(
+      "/api/projects",
+    );
     if (Array.isArray(data)) {
       projects = data;
-    } else if (data && typeof data === 'object') {
+    } else if (data && typeof data === "object") {
       const arrayField = Object.values(data).find(Array.isArray);
       if (arrayField) {
         projects = arrayField as Project[];
@@ -41,7 +43,7 @@ export default async function ProjectsPage() {
       <div className="worksWrapper">
         {projects.map((projet, index) => (
           <div key={index} className="workCard">
-            <Link href={`/project/${(projet.slug)}`}>
+            <Link href={`/project/${projet.slug}`}>
               <img src={projet.image} className="workImg" alt={projet.name} />
             </Link>
             <div className="workCards">
@@ -51,14 +53,39 @@ export default async function ProjectsPage() {
               </div>
               <div className="workInformation">
                 <div className="workStack">
-                  <p className="stack">{projet.stack}</p>
+                  <p className="stack">
+                    {(Array.isArray(projet.stack)
+                      ? projet.stack
+                      : (projet.stack ?? "").split(",")
+                    )
+                      .map((s: string) => s.trim())
+                      .filter(Boolean)
+                      .map(
+                        (s: string) => s.charAt(0).toUpperCase() + s.slice(1),
+                      )
+                      .join(" · ")}
+                  </p>
                 </div>
                 <div className="workBlock">
                   {projet.url_github && (
-                    <a href={projet.url_github} className="btnStyle" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a
+                      href={projet.url_github}
+                      className="btnStyle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
                   )}
                   {projet.url && (
-                    <a href={projet.url} className="btnStyle" target="_blank" rel="noopener noreferrer">Visiter</a>
+                    <a
+                      href={projet.url}
+                      className="btnStyle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Visiter
+                    </a>
                   )}
                 </div>
               </div>

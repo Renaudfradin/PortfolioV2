@@ -1,12 +1,12 @@
-.parentHome{
+.parentHome {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 100vh;
 }
 
-@media screen and (max-width:768px){
-  .parentHome{
+@media screen and (max-width: 768px) {
+  .parentHome {
     display: flex;
     justify-content: flex-end;
     align-items: center;

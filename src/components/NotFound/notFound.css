@@ -1,4 +1,4 @@
-.gif{
+.gif {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -6,11 +6,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #fff;
-  font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+  color: var(--text-color);
+  font-family: var(--font-notfound);
   position: relative;
   overflow: hidden;
-  background: #0a0a0a;
+  background: var(--bg-notfound);
   animation: bgGlitch 5s infinite;
 }
 
@@ -20,8 +20,9 @@
 }
 
 @keyframes bgGlitch {
-  0%, 100% {
-    background: #0a0a0a;
+  0%,
+  100% {
+    background: var(--bg-notfound);
   }
   2% {
     background: #0d0a10;
@@ -30,10 +31,10 @@
     background: #0a100d;
   }
   6% {
-    background: #0a0a0a;
+    background: var(--bg-notfound);
   }
   50% {
-    background: #0a0a0a;
+    background: var(--bg-notfound);
   }
   52% {
     background: #100a0d;
@@ -44,7 +45,7 @@
     box-shadow: inset 0 0 80px rgba(0, 255, 255, 0.05);
   }
   56% {
-    background: #0a0a0a;
+    background: var(--bg-notfound);
     box-shadow: none;
   }
 }
@@ -92,13 +93,15 @@
   display: inline-block;
   animation: glitch 2.5s infinite;
   text-shadow:
-    2px 0 #ff00ff,
-    -2px 0 #00ffff;
+    2px 0 var(--glitch-magenta),
+    -2px 0 var(--glitch-cyan);
 }
 
 .digitMiddle {
-  animation: pulse 1.5s ease-in-out infinite, glitch 3s infinite 0.5s;
-  color: #fff;
+  animation:
+    pulse 1.5s ease-in-out infinite,
+    glitch 3s infinite 0.5s;
+  color: var(--text-color);
   text-shadow:
     0 0 20px var(--primary-color),
     0 0 40px var(--primary-color),
@@ -106,47 +109,48 @@
 }
 
 @keyframes glitch {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0);
     text-shadow:
-      2px 0 #ff00ff,
-      -2px 0 #00ffff;
+      2px 0 var(--glitch-magenta),
+      -2px 0 var(--glitch-cyan);
   }
   2% {
     transform: translate(-3px, 2px);
     text-shadow:
-      -3px 0 #ff00ff,
-      3px 0 #00ffff;
+      -3px 0 var(--glitch-magenta),
+      3px 0 var(--glitch-cyan);
   }
   4% {
     transform: translate(3px, -2px);
     text-shadow:
-      3px 0 #ff00ff,
-      -3px 0 #00ffff;
+      3px 0 var(--glitch-magenta),
+      -3px 0 var(--glitch-cyan);
   }
   6% {
     transform: translate(0);
     text-shadow:
-      2px 0 #ff00ff,
-      -2px 0 #00ffff;
+      2px 0 var(--glitch-magenta),
+      -2px 0 var(--glitch-cyan);
   }
   40% {
     transform: translate(0);
     text-shadow:
-      2px 0 #ff00ff,
-      -2px 0 #00ffff;
+      2px 0 var(--glitch-magenta),
+      -2px 0 var(--glitch-cyan);
   }
   42% {
     transform: translate(-2px, 1px);
     text-shadow:
-      -4px 0 #ff00ff,
-      4px 0 #00ffff;
+      -4px 0 var(--glitch-magenta),
+      4px 0 var(--glitch-cyan);
   }
   44% {
     transform: translate(2px, -1px);
     text-shadow:
-      2px 0 #ff00ff,
-      -2px 0 #00ffff;
+      2px 0 var(--glitch-magenta),
+      -2px 0 var(--glitch-cyan);
   }
   46% {
     transform: translate(0);
@@ -154,7 +158,8 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }
@@ -173,28 +178,29 @@
   position: relative;
   animation: glitchText 3s infinite;
   text-shadow:
-    1px 0 #ff00ff,
-    -1px 0 #00ffff;
+    1px 0 var(--glitch-magenta),
+    -1px 0 var(--glitch-cyan);
 }
 
 @keyframes glitchText {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0);
     text-shadow:
-      1px 0 #ff00ff,
-      -1px 0 #00ffff;
+      1px 0 var(--glitch-magenta),
+      -1px 0 var(--glitch-cyan);
   }
   10% {
     transform: translate(-2px, 1px);
     text-shadow:
-      -2px 0 #ff00ff,
-      2px 0 #00ffff;
+      -2px 0 var(--glitch-magenta),
+      2px 0 var(--glitch-cyan);
   }
   12% {
     transform: translate(2px, -1px);
     text-shadow:
-      2px 0 #ff00ff,
-      -2px 0 #00ffff;
+      2px 0 var(--glitch-magenta),
+      -2px 0 var(--glitch-cyan);
   }
   14% {
     transform: translate(0);
@@ -202,20 +208,20 @@
   60% {
     transform: translate(0);
     text-shadow:
-      1px 0 #ff00ff,
-      -1px 0 #00ffff;
+      1px 0 var(--glitch-magenta),
+      -1px 0 var(--glitch-cyan);
   }
   62% {
     transform: translate(3px, -1px);
     text-shadow:
-      -3px 0 #ff00ff,
-      3px 0 #00ffff;
+      -3px 0 var(--glitch-magenta),
+      3px 0 var(--glitch-cyan);
   }
   64% {
     transform: translate(-1px, 2px);
     text-shadow:
-      1px 0 #ff00ff,
-      -1px 0 #00ffff;
+      1px 0 var(--glitch-magenta),
+      -1px 0 var(--glitch-cyan);
   }
   66% {
     transform: translate(0);
@@ -238,8 +244,8 @@
   position: relative;
   animation: glitchLink 4s infinite;
   text-shadow:
-    1px 0 #ff00ff,
-    -1px 0 #00ffff;
+    1px 0 var(--glitch-magenta),
+    -1px 0 var(--glitch-cyan);
 }
 
 .glitchLink:hover {
@@ -247,23 +253,24 @@
 }
 
 @keyframes glitchLink {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0);
     text-shadow:
-      1px 0 #ff00ff,
-      -1px 0 #00ffff;
+      1px 0 var(--glitch-magenta),
+      -1px 0 var(--glitch-cyan);
   }
   20% {
     transform: translate(-2px, 1px);
     text-shadow:
-      -2px 0 #ff00ff,
-      2px 0 #00ffff;
+      -2px 0 var(--glitch-magenta),
+      2px 0 var(--glitch-cyan);
   }
   22% {
     transform: translate(2px, -1px);
     text-shadow:
-      2px 0 #ff00ff,
-      -2px 0 #00ffff;
+      2px 0 var(--glitch-magenta),
+      -2px 0 var(--glitch-cyan);
   }
   24% {
     transform: translate(0);
@@ -271,20 +278,20 @@
   70% {
     transform: translate(0);
     text-shadow:
-      1px 0 #ff00ff,
-      -1px 0 #00ffff;
+      1px 0 var(--glitch-magenta),
+      -1px 0 var(--glitch-cyan);
   }
   72% {
     transform: translate(1px, -2px);
     text-shadow:
-      -3px 0 #ff00ff,
-      3px 0 #00ffff;
+      -3px 0 var(--glitch-magenta),
+      3px 0 var(--glitch-cyan);
   }
   74% {
     transform: translate(-1px, 1px);
     text-shadow:
-      1px 0 #ff00ff,
-      -1px 0 #00ffff;
+      1px 0 var(--glitch-magenta),
+      -1px 0 var(--glitch-cyan);
   }
   76% {
     transform: translate(0);

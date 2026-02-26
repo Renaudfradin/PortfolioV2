@@ -1,6 +1,6 @@
 /* ===== Desktop sidebar ===== */
 .header {
-  background: #181818;
+  background: var(--bg-dark);
   width: 70px;
   height: 100vh;
   display: flex;
@@ -20,8 +20,8 @@
   display: block;
   font-size: 25px;
   text-align: center;
-  margin: 30px 0;
-  color: white;
+  margin: 15px 0;
+  color: var(--text-color);
   transition: color 0.2s ease;
 }
 
@@ -38,7 +38,7 @@
   font-size: 25px;
   text-align: center;
   margin: 0;
-  color: white;
+  color: var(--text-color);
 }
 
 .nav1:hover {
@@ -72,6 +72,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    background: var(--bg-dark);
+    z-index: 102;
   }
 
   .nav3 {
@@ -92,14 +94,14 @@
     border: none;
     cursor: pointer;
     padding: 8px;
-    z-index: 101;
+    z-index: 103;
   }
 
   .burger span {
     display: block;
     width: 28px;
     height: 3px;
-    background: #fff;
+    background: var(--text-color);
     border-radius: 2px;
     transition: all 0.3s ease;
     transform-origin: center;
@@ -118,31 +120,58 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  /* Menu hidden by default */
-  .menu,
+  /* Fullscreen overlay menu */
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--bg-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    z-index: 101;
+  }
+
   .socials {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.35s ease, padding 0.35s ease;
-    padding: 0 20px;
+    gap: 30px;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    z-index: 101;
   }
 
   .menuOpen {
-    max-height: 200px;
-    padding: 10px 20px;
+    transform: translateX(0);
   }
 
   .nav {
-    display: inline-block;
-    margin: 10px 14px;
-    font-size: 22px;
+    display: block;
+    margin: 16px 0;
+    font-size: 30px;
+    transition:
+      color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .nav:hover {
+    transform: scale(1.2);
   }
 
   .socials .nav {
-    margin: 8px 14px;
+    margin: 0;
+    font-size: 26px;
   }
 }

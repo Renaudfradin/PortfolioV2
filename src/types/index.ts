@@ -6,7 +6,7 @@ export interface Project {
   image: string;
   url?: string;
   url_github?: string;
-  stack?: string;
+  stack?: string | string[];
 }
 
 export interface Experience {
@@ -20,7 +20,7 @@ export interface Experience {
   type: string;
 }
 
-export type ApiMethod = 'GET';
+export type ApiMethod = "GET";
 
 export interface CallApiOptions {
   method?: ApiMethod;

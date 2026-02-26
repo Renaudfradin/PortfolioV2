@@ -1,5 +1,5 @@
-.contactCard{
-  color: #fff;
+.contactCard {
+  color: var(--text-color);
   display: flex;
   height: 100vh;
   width: 50%;
@@ -9,37 +9,34 @@
   margin: auto;
 }
 
-.contactTitle{
+.contactTitle {
   color: var(--primary-color);
 }
 
-.contactLink{
+.contactLink {
   color: var(--primary-color);
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.formInput{
-  background-color: #222222;
+.formInput {
+  background-color: var(--bg-main);
   border: 1px solid var(--primary-color);
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width: 425px) {
   .contactCard {
-    color: #fff;
-    display: flex;
     height: auto;
     width: 90%;
-    flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    padding-top: 20%;
   }
 
-  .contactTitle{
+  .contactTitle {
     margin-top: 20px;
     margin-bottom: 0px;
     margin-left: auto;

@@ -1,8 +1,8 @@
-import styles from "./Wolf.module.css";
+import "./wolf.css";
 
 export default function Wolf() {
   return (
-    <div className={styles.wolf}>
+    <div className="wolf">
       <img src="/loup.svg" alt="" />
     </div>
   );
