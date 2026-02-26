@@ -26,7 +26,7 @@ export default function AboutComponent() {
         activement pour la cause animale.
       </p>
       <a
-        href="/cv/cv_renaud.pdf"
+        href="/cv/cv_renaud_fradin.pdf"
         download="CV_Renaud_Fradin.pdf"
         className="btnCV"
       >
