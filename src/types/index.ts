@@ -1,4 +1,15 @@
-export interface Project {
+export interface ProjectDetail {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  image: string | string[];
+  url?: string;
+  url_github?: string;
+  stack?: string | string[];
+}
+
+export interface Projects {
   id: string;
   name: string;
   slug: string;

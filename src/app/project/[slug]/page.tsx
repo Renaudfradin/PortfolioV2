@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { callApi } from "@/lib/api";
-import { Project } from "@/types";
+import { ProjectDetail } from "@/types";
+import ImageCarousel from "@/components/ImageCarousel";
 import "../project.css";
 
 export const dynamic = "force-dynamic";
@@ -14,7 +14,7 @@ export async function generateMetadata({
   const { slug } = await params;
 
   try {
-    const response = await callApi<Project | { data: Project }>(
+    const response = await callApi<ProjectDetail | { data: ProjectDetail }>(
       `/api/project/${slug}`,
     );
     const project = "data" in response ? response.data : response;
@@ -38,13 +38,15 @@ export default async function Projects({
 }) {
   const { slug } = await params;
 
-  let project: Project | null = null;
+  let project: ProjectDetail | null = null;
   try {
-    const response: Project | { data: Project } = await callApi(
+    const response: ProjectDetail | { data: ProjectDetail } = await callApi(
       `/api/project/${slug}`,
     );
     if ("data" in response) {
       project = response.data;
+
+      console.log(project.image);
     } else {
       project = response;
     }
@@ -61,15 +63,15 @@ export default async function Projects({
     <div className="project-page">
       <h1 className="project-title">{project.name}</h1>
 
-      <div className="project-image-wrapper">
-        <Image
-          src={project.image}
-          alt={project.name}
-          width={800}
-          height={450}
-          className="project-image"
-        />
-      </div>
+      {(() => {
+        const images = Array.isArray(project.image) ? project.image : [project.image];
+        return (
+          <ImageCarousel
+            images={images}
+            alt={project.name}
+          />
+        );
+      })()}
 
       <p className="project-description">{project.description}</p>
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { callApi } from "@/lib/api";
-import { Project } from "@/types";
+import { Projects } from "@/types";
 import "./project.css";
 
 export const metadata: Metadata = {
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
 };
 
 export default async function ProjectsPage() {
-  let projects: Project[] = [];
+  let projects: Projects[] = [];
 
   try {
-    const data = await callApi<Project[] | Record<string, unknown>>(
+    const data = await callApi<Projects[] | Record<string, unknown>>(
       "/api/projects",
     );
     if (Array.isArray(data)) {
@@ -31,7 +31,7 @@ export default async function ProjectsPage() {
     } else if (data && typeof data === "object") {
       const arrayField = Object.values(data).find(Array.isArray);
       if (arrayField) {
-        projects = arrayField as Project[];
+        projects = arrayField as Projects[];
       }
     }
   } catch (e) {
