@@ -3,7 +3,7 @@ export interface Project {
   name: string;
   slug: string;
   description: string;
-  image: string;
+  image: string | string[];
   url?: string;
   url_github?: string;
   stack?: string | string[];
