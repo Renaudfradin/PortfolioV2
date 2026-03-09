@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { callApi } from "@/lib/api";
-import { Project } from "@/types";
+import { ProjectDetail } from "@/types";
 import ImageCarousel from "@/components/ImageCarousel";
 import "../project.css";
 
@@ -14,7 +14,7 @@ export async function generateMetadata({
   const { slug } = await params;
 
   try {
-    const response = await callApi<Project | { data: Project }>(
+    const response = await callApi<ProjectDetail | { data: ProjectDetail }>(
       `/api/project/${slug}`,
     );
     const project = "data" in response ? response.data : response;
@@ -38,9 +38,9 @@ export default async function Projects({
 }) {
   const { slug } = await params;
 
-  let project: Project | null = null;
+  let project: ProjectDetail | null = null;
   try {
-    const response: Project | { data: Project } = await callApi(
+    const response: ProjectDetail | { data: ProjectDetail } = await callApi(
       `/api/project/${slug}`,
     );
     if ("data" in response) {
